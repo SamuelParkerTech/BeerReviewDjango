@@ -26,7 +26,7 @@ Samuel Parker Github Template
 The Carew Beer Review! 
 A review of the beers at the yearly Carew Arms Beer Festival in Crowcombe in Somerset. A real ale festival with 18 different beers to try over the weekend. 
 
-## Proget Target
+## Project Target
 
 The website aims to address the need to review the beers at the recent beer festival at the Carew Arms in Somerset. There were 18 beers to taste over the course of a weekend. There were also ciders but the current scope is too only focus on the beers. 
 
