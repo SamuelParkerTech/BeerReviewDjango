@@ -12,6 +12,7 @@ Samuel Parker Github Template
 - [Live Deployment](#Live-Deployment)
 - [Design](#Design)
 - [Wireframes](#Wireframes)
+- [ERD Designs](#ERD-Designs)
 - [Features](#Features)
 - [Technology](#Technology)
 - [Future Features](#Future-Features)
@@ -40,9 +41,14 @@ The target audience for this website is largely attendees of the festival who we
 
 ## Live Deployment
 
-## Design
+## Design 
 
 ## Wireframes 
+
+## ERD Designs
+For the ERD design I have used MIRO to create these. 
+
+Live link to page: https://miro.com/welcomeonboard/SlV6RzNtRGxOU2JkRXRXVVQ2cXRXZHVBa0VrMnNiRlAweGdGUE5Qa3N1NEVLVWVVRGZYOXVZVExFaVg0RW9tU3wzNDU4NzY0NTg3NDg4NjQwODQwfDI=?share_link_id=241379904065
 
 ## Features
 
