@@ -6,6 +6,7 @@ Samuel Parker Github Template
 
 ## Contents
 - [About](#about)
+- [Project Target](#Project-Target)
 - [Agile](#Agile) 
 - [Project Board](#Project-Board)
 - [Live Deployment](#Live-Deployment)
@@ -21,6 +22,8 @@ Samuel Parker Github Template
 - [Further Thoughts](#Further-Thoughts)
 
 ## About
+
+## Proget Target
 
 ## Agile
 
