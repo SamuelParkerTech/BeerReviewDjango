@@ -1,9 +1,6 @@
 
 ![SPMT Logo 1](https://github.com/user-attachments/assets/0319c37c-73f4-4b60-a55e-607e765b3a65)
 
-# SPTECH-Templates
-Samuel Parker Github Template
-
 ## Contents
 - [About](#about)
 - [Project Target](#Project-Target)
