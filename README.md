@@ -96,6 +96,8 @@ Live link to page: https://miro.com/welcomeonboard/SlV6RzNtRGxOU2JkRXRXVVQ2cXRXZ
 
 # Content Credit
 
+ChatGPT - Content Creation. Descriptions of some beers was tweaked with ChatGPT. 
+
 # Further Thoughts
 
 
