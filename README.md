@@ -62,17 +62,20 @@ TBC
 
 # Wireframes 
 Modal - Alert Age Restriction
-![Wireframes Chal18](https://github.com/user-attachments/assets/ae257e3f-08b2-4b7b-b781-6fe54c0e43a9)
+
+![Wireframes Chal18](https://github.com/user-attachments/assets/ee608557-a865-49ad-ba9d-9a0fd2b26b80)
 
 The main pages:
-![Wireframes Main Page](https://github.com/user-attachments/assets/5cfc0a2e-72cb-4075-88fb-5bbe3207b69e)
+
+![Wireframes Main Page](https://github.com/user-attachments/assets/a876bcca-3202-4806-9541-149ecec53841)
 
 The review pages:
-![Wireframes Review Pages](https://github.com/user-attachments/assets/005d7523-8d97-497c-aaa2-5918990f7a07)
+
+![Wireframes Review Pages](https://github.com/user-attachments/assets/d79cac2f-eed8-4a7a-99a0-2e41c418f0d0)
 
 Mock up of review page pop up:
-![Wireframes Review Pop Up Version](https://github.com/user-attachments/assets/6e364b95-b35c-4293-9fdc-76e5fe3974b5)
 
+![Wireframes Review Pop Up Version](https://github.com/user-attachments/assets/6a61f0a7-050e-42b5-8305-1a8730efa133)
 
 # ERD Designs
 For the ERD design I have used MIRO to create these. 
