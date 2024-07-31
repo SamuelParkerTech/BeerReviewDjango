@@ -43,6 +43,16 @@ The target audience for this website is largely attendees of the festival who we
 
 ## Design 
 
+# Design Aims
+
+The aim of the design is to make it really simple, clear and straightforward as to what the site is used for. A simple main landing page displaying the title with "CarewFest Beers & Reviews". 
+
+# Main Page
+
+Before the user accesses the page they will have to confirm they are 18 years old as the subject matter is age restricted (alcohol/beer)./ 
+The main page will host a selection of beers in bootstrap cards which are also links, hosted in a carousel so each beer can be moved between with clear arrows to enable this decision. By clicking on each beer the user will get more information and access to the reviews, an option to leave their own reviews. 
+The site does not encourage excessive drinking and is a means to share information on beers at the festival. Drink Responsibly. 
+
 ## Wireframes 
 
 ## ERD Designs
