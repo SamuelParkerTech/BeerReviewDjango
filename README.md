@@ -61,19 +61,19 @@ On the review page, further details on the beer will be displayed as well as the
 TBC
 
 # Wireframes 
-Modal - Alert Age Restriction
+## Modal - Alert Age Restriction
 
 ![Wireframes Chal18](https://github.com/user-attachments/assets/ee608557-a865-49ad-ba9d-9a0fd2b26b80)
 
-The main pages:
+## The main pages:
 
 ![Wireframes Main Page](https://github.com/user-attachments/assets/a876bcca-3202-4806-9541-149ecec53841)
 
-The review pages:
+## The review pages:
 
 ![Wireframes Review Pages](https://github.com/user-attachments/assets/d79cac2f-eed8-4a7a-99a0-2e41c418f0d0)
 
-Mock up of review page pop up:
+## Mock up of review page pop up:
 
 ![Wireframes Review Pop Up Version](https://github.com/user-attachments/assets/6a61f0a7-050e-42b5-8305-1a8730efa133)
 
