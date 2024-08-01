@@ -28,9 +28,10 @@
 
 </head>
 <body>
+
 <!-- Age Challenge Modal --> 
 <div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="staticBackdropLabel">Age Check Required</h1>
@@ -40,15 +41,44 @@
           You must be 18 or over to view this site - are you over £18? (Clicking no will take you to Google)
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yes</button>
-          <button type="button" class="btn btn-primary" id="noButton">No</button>
+            <button type="button" class="btn btn-secondary" id="noButton">No</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Yes</button>
         </div>
       </div>
     </div>
-  </div>   
+  </div>
+
 <!-- NavBar -->
 
-
+<!-- Needs filling once models and URLS are made-->
+<nav class="navbar navbar-expand-lg" style="background-color: #C6A51B;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{base.html}">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                {% if user.is_authenticated %}
+                <li class="nav-item">
+                    <a class="nav-link {% if request.path == logout_url %}active{% endif %}" aria-current="page"
+                        href="">Logout</a>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link {% if request.path == signup_url %}active{% endif %}" aria-current="page"
+                        href="">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.path == login_url %}active{% endif %}" aria-current="page"
+                        href="">Login</a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>
 <h1 id="title">CarewFest Beers & Reviews!</h1>
 <section id="cards">
 <!-- Custom Content Goes Below -->
