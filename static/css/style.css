@@ -1,14 +1,17 @@
+
 /* Universal Styles */
+
 body {
     font-family: Oswald, sans-serif;
-    background: url("{% static 'img/thecarew.jpg'%}") no-repeat center center fixed; 
+    background: url("https://res.cloudinary.com/dzkbptwr7/image/upload/v1722514193/carewresize_wrcjgn.jpg") no-repeat center center fixed; 
     background-size: cover;
     margin: 0;
     padding: 0;
+    padding-bottom: 80px;
 }
 
 #title {
-    color: #ffffff;
+    color: black;
     text-align: center;
     }
 
@@ -17,29 +20,32 @@ body {
 #footer {
     background-color: #C6A15B; /* Orange-ish color */
     position: fixed;
-    height: 5%;
     width: 100%;
     bottom: 0;
+    height: 80px; /* Fixed height */
     padding: 0;
+    z-index: 1000; /* Ensure footer is above other content */
 }
 
-#socials {
+footer {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     margin: 0;
-    padding: 0;
-    color:#ffffff;
+    padding: 0.5rem;
+    color: #ffffff;
     font-size: medium;
-    padding-top: 0.5rem;
+
 }
 
 footer i {
-    font-size: 200%;
-    color: #ffffff;
+    font-size: 1rem; 
 }
 
 footer a {
-    font-size: 150%;
-    color:#ffffff
+    font-size: 1rem; 
+    color: #ffffff;
+    text-decoration: none; 
 }
+
