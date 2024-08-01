@@ -96,9 +96,9 @@ Live link to page: https://miro.com/welcomeonboard/SlV6RzNtRGxOU2JkRXRXVVQ2cXRXZ
 
 # Content Credit
 
-Carew Pub Images coutesy of Out and Abouts Images https://www.outandaboutimages.co.uk/
-ChatGPT - Content Creation. Descriptions of some beers was tweaked with ChatGPT. 
-Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/
+Carew Pub Images coutesy of Out and Abouts Images https://www.outandaboutimages.co.uk/ /
+ChatGPT - Content Creation. Descriptions of some beers was tweaked with ChatGPT. /
+Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/ /
 
 # Further Thoughts
 
