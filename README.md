@@ -91,6 +91,10 @@ Live link to page: https://miro.com/welcomeonboard/SlV6RzNtRGxOU2JkRXRXVVQ2cXRXZ
 
 # Features
 
+The main welcome page features a challenge ID age modal, if this is clicked no it redirects to google. 
+![image](https://github.com/user-attachments/assets/6c0f2811-d803-4a48-adb9-5dca03778843)
+
+
 # Technology
 
 # Future Features
