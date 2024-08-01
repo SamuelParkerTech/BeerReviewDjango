@@ -1,3 +1,45 @@
-h1 {
-    color: red;
+/* Universal Styles */
+body {
+    font-family: Oswald, sans-serif;
+    background: url("{% static 'img/thecarew.jpg'%}") no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    color: #ffffff;
+    text-align: center;
     }
+
+
+/* Footer */
+#footer {
+    background-color: #C6A15B; /* Orange-ish color */
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    bottom: 0;
+    padding: 0;
+}
+
+#socials {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    color:#ffffff;
+    font-size: medium;
+    padding-top: 0.5rem;
+}
+
+footer i {
+    font-size: 200%;
+    color: #ffffff;
+}
+
+footer a {
+    font-size: 150%;
+    color:#ffffff
+}
