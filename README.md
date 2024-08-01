@@ -58,7 +58,14 @@ On the review page, further details on the beer will be displayed as well as the
 
 ## Fonts, Colours & Hero Image
 
-TBC
+I have selected font Oswald from Google Fonts as a clear and effective font. I've gone with a colour scheme of Orange & White matching the colours of the Beer Favicon seelected. 
+C6A15B \
+FFFFFF \
+000000 \
+Black will likely also be used. \
+![image](https://github.com/user-attachments/assets/f3626b5f-ee8e-4479-8858-df968f2f53ba)
+
+I have chosen a hero image of the exterior of the pub which will form the main background of the page. Image provided by Paul Savage of Out and About Images. 
 
 # Wireframes 
 ## Modal - Alert Age Restriction
