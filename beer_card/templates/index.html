@@ -1,8 +1,31 @@
-
 {% extends 'base.html' %} {% block content %}
 {% load static %}
 <!-- Content from Base.HTML after this block-->
 
-<!-- Beer Carousel Content-->
+<!-- container for cards-->
+<div class="container my-5" id="beercards">
+    <div class="row justify-content-center">
+        <!-- Code to be iterated to create numerous cards from database -->
+        <div class="col-md-4 col-12 mb-4">
+            <a href="..." class="card-link">
+            <div class="card border-warning">
+                <img src="..."
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Beer Name</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Notes: </strong>Notes go here</li>
+                    <li class="list-group-item"><strong>ABV: </strong>ABV % goes here</li>
+                    <li class="list-group-item"><strong>Rating: </strong>Rating goes here</li>
+                </ul>
+            </div>
+            </a>
+        </div>
+        <!-- End of iterated code-->
+    </div>
+</div>
 
 {% endblock content %}
