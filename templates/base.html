@@ -51,7 +51,7 @@
 <!-- NavBar -->
 
 <!-- Needs filling once models and URLS are made-->
-<nav class="navbar navbar-expand-lg" style="background-color: #C6A51B;">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="{base.html}">Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -76,14 +76,21 @@
                 </li>
                 {% endif %}
             </ul>
+                    {% if user.is_authenticated %}
+        <p class="text-end m-3">You are logged in as {{ user }}</p>
+            {% else %}
+        <p class="text-end m-3">You are not logged in</p>
+            {% endif %}
         </div>
     </div>
 </nav>
-<h1 id="title">CarewFest Beers & Reviews!</h1>
-<section id="cards">
-<!-- Custom Content Goes Below -->
+    <main class="flex-shrink-0 main-bg">
+            <h1 id="title">CarewFest Beers & Reviews!</h1>
+            {% block content %}
+            <!-- Content Goes here -->
+            {% endblock content %}
 
-</section>
+    </main>
 <!-- Footer -->
 
 <footer class="container-fluid" id="footer">

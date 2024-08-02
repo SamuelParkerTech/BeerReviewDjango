@@ -10,24 +10,34 @@ body {
     padding-bottom: 80px;
 }
 
+/* Navbar Styles */
+nav {
+    background-color: #C6A15B;
+    color: #ffffff
+}
+
+nav a {
+    color: #ffffff !important;
+}
+
+/* Main Page and Content */
+
 #title {
-    color: black;
+    color: #000000;
     text-align: center;
+    font-size: 150px
     }
 
 
 /* Footer */
 #footer {
-    background-color: #C6A15B; /* Orange-ish color */
+    background-color: #C6A15B; 
     position: fixed;
     width: 100%;
     bottom: 0;
     height: 80px; /* Fixed height */
     padding: 0;
-    z-index: 1000; /* Ensure footer is above other content */
-}
-
-footer {
+    z-index: 1000; 
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
@@ -49,3 +59,12 @@ footer a {
     text-decoration: none; 
 }
 
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 200%;
+    }
+}
