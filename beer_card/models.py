@@ -49,9 +49,3 @@ class Review(models.Model):
     """
     function updates review score
     """
-    def update_beer_rating(self):
-        reviews = self.beer_name.reviews.filter(approved=True)
-        total_rating = sum(review.rating for review in reviews)
-        average_rating = total_rating / len(reviews) if reviews else null
-        self.beer_name.rating = average_rating
-        self.beer_name.save()
