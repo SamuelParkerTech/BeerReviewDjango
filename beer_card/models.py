@@ -31,11 +31,9 @@ class Review(models.Model):
     """
     Stores/Adds a review to the beer detail post. 
     """
-    beer_name = models.ForeignKey(
-        Beer, on_delete=models.CASCADE, related_name="reviews") 
+    beer_name = models.ForeignKey(Beer, on_delete=models.CASCADE, related_name="reviews") 
     review_content = models.TextField()
-    poster = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name="reviewer")   
+    poster = models.ForeignKey(User, on_delete=models.CASCADE, related_name="reviewer")   
     models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(5)])
     approved = models.BooleanField(default=False)
     created_on = models.DateTimeField(auto_now_add=True) 
