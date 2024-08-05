@@ -1,210 +1,290 @@
-[{
-        "Beer Name": "Beast",
-        "slug": "beast",
-        "Brewery": "Exmoor Brewery",
-        "Type": "Dark Porter",
-        "ABV": "6.6%",
-        "Notes": "Toffee, Treacle",
-        "Content": "This used to be the starter beer, the strongest beer at the festival, either start big or end big and go home. A strong dark porter which in recent years has been left behind by dark beers in the double figure ABV. A festival stalwart, you know what your getting with the Beast.",
-        "Rating": [],
-        "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598924/exmoorbeastbeer_fpgh5l.jpg",
-        "status": 1
+[
+    {
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "beast",
+            "slug": "beast",
+            "brewery": "Exmoor Brewery",
+            "type": "dark porter",
+            "abv": "6.6%",
+            "notes": "Toffee, Treacle",
+            "content": "This used to be the starter beer, the strongest beer at the festival, either start big or end big and go home. A strong dark porter which in recent years has been left behind by dark beers in the double figure ABV. A festival stalwart, you know what your getting with the Beast.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598924/exmoorbeastbeer_fpgh5l.jpg",
+            "status": 1
+        }
     },
     {
-        "Beer Name": "Wotter Shot!",
-        "slug": "wotter-shot",
-        "Brewery": "Otter Brewery",
-        "Type": "Session Bitter",
-        "ABV": "3.4%",
-        "Notes": "",
-        "Content": "Wotter Shot! - A beer brewed for the Euros in 2024. Unfortunately, the football didn't come home but this session beer will have you singing 3 lions in no time. An easy to drink session beer.",
-        "Rating": [],
-        "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598930/wottershot_dragoh.jpg",
-        "status": 1
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "wotter_shot!",
+            "slug": "wotter-shot",
+            "brewery": "Otter Brewery",
+            "type": "session bitter",
+            "abv": "3.4%",
+            "notes": "",
+            "content": "Wotter Shot! - A beer brewed for the Euros in 2024. Unfortunately, the football didn't come home but this session beer will have you singing 3 lions in no time. An easy to drink session beer.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598930/wottershot_dragoh.jpg",
+            "status": 1
+        }
     },
     {
-        "Beer Name": "Otter Head",
-        "slug": "otter-head",
-        "Brewery": "Otter Brewery",
-        "Type": "Ale",
-        "ABV": "5.8%",
-        "Notes": "Caramel, Dark Fruit",
-        "Content": "A rich and full-bodied ale with a smooth, malty backbone and a touch of caramel sweetness.",
-        "Rating": [],
-        "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598927/otterhead_l3ae8u.jpg",
-        "status": 1
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "otter_head",
+            "slug": "otter-head",
+            "brewery": "Otter Brewery",
+            "type": "ale",
+            "abv": "5.8%",
+            "notes": "Caramel, Dark Fruit",
+            "content": "A rich and full-bodied ale with a smooth, malty backbone and a touch of caramel sweetness.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598927/otterhead_l3ae8u.jpg",
+            "status": 1
+        }
     },
     {
-        "Beer Name": "County Best",
-        "slug": "county-best",
-        "Brewery": "The Exeter Brewery Ltd",
-        "Type": "Best Bitter",
-        "ABV": "4.6%",
-        "Notes": "Malt, Biscuit",
-        "Content": "An award-winning brew that showcases the best of traditional county ales. Smooth, balanced, and utterly satisfying.",
-        "Rating": [],
-        "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596935/countybest_fw46z7.jpg",
-        "status": 1
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "county_best",
+            "slug": "county-best",
+            "brewery": "The Exeter Brewery Ltd",
+            "type": "best bitter",
+            "abv": "4.6%",
+            "notes": "Malt, Biscuit",
+            "content": "An award-winning brew that showcases the best of traditional county ales. Smooth, balanced, and utterly satisfying.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596935/countybest_fw46z7.jpg",
+            "status": 1
+        }
     },
     {
-        "Beer Name": "Otter Ale",
-        "slug": "otter-ale",
-        "Brewery": "Otter Brewery",
-        "Type": "Ale",
-        "ABV": "4.5%",
-        "Notes": "Caramel, Malt",
-        "Content": "A well-rounded ale with a harmonious blend of malt and hops, delivering a delightful taste of the countryside.",
-        "Rating": [],
-        "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598926/otterale_v3ur16.jpg",
-        "status": 1
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "otter_ale",
+            "slug": "otter-ale",
+            "brewery": "Otter Brewery",
+            "type": "ale",
+            "abv": "4.5%",
+            "notes": "Caramel, Malt",
+            "content": "A well-rounded ale with a harmonious blend of malt and hops, delivering a delightful taste of the countryside.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598926/otterale_v3ur16.jpg",
+            "status": 1
+        }
     },
     {
-        "Beer Name": "Cotleigh 45",
-        "slug": "cotleigh-45",
-        "Brewery": "Nuttycombe Brewery",
-        "Type": "Pale Ale",
-        "ABV": "4.5%",
-        "Notes": "Citrus Hops",
-        "Content": "A classic English ale with a rich, malty flavor and a hint of fruitiness. Timeless and reliable.",
-        "Rating": [],
-        "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596877/cotleigh45_j5bchg.jpg",
-        "status": 1
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "cotleigh_45",
+            "slug": "cotleigh-45",
+            "brewery": "Nuttycombe Brewery",
+            "type": "pale ale",
+            "abv": "4.5%",
+            "notes": "Citrus Hops",
+            "content": "A classic English ale with a rich, malty flavor and a hint of fruitiness. Timeless and reliable.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596877/cotleigh45_j5bchg.jpg",
+            "status": 1
+        }
     },
     {
-        "Beer Name": "Daft Craft",
-        "slug": "daft-craft",
-        "Brewery": "Nuttycombe Brewery",
-        "Type": "American Pale Ale",
-        "ABV": "4.4%",
-        "Notes": "",
-        "Content": "A quirky and imaginative brew that pushes the boundaries of traditional beer-making. Expect the unexpected!",
-        "Rating": [],
-        "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598919/daftcraft_s0lyrg.jpg",
-        "status": 1
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "daft_craft",
+            "slug": "daft-craft",
+            "brewery": "Nuttycombe Brewery",
+            "type": "american pale ale",
+            "abv": "4.4%",
+            "notes": "",
+            "content": "A quirky and imaginative brew that pushes the boundaries of traditional beer-making. Expect the unexpected!",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598919/daftcraft_s0lyrg.jpg",
+            "status": 1
+        }
     },
     {
-        "Beer Name": "Otter Bright",
-        "slug": "otter-bright",
-        "Brewery": "Otter Brewery",
-        "Type": "Golden Ale",
-        "ABV": "4.3%",
-        "Notes": "Citrus Aromas",
-        "Content": "A light, crisp, and refreshing ale with a zesty finish. Perfect for those sunny days.",
-        "Rating": [],
-        "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598927/otterbright_c1htxc.jpg",
-        "status": 1
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "otter_bright",
+            "slug": "otter-bright",
+            "brewery": "Otter Brewery",
+            "type": "golden ale",
+            "abv": "4.3%",
+            "notes": "Citrus Aromas",
+            "content": "A light, crisp, and refreshing ale with a zesty finish. Perfect for those sunny days.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598927/otterbright_c1htxc.jpg",
+            "status": 1
+        }
     },
     {
-        "Beer Name": "Doonicans",
-        "slug": "doonicans",
-        "Brewery": "Nuttycombe Brewery",
-        "Type": "Pale Ale",
-        "ABV": "4.2%",
-        "Notes": "Melon, Malt, Apple",
-        "Content": "A hearty, comforting ale with a warm, malty profile and a touch of sweetness.",
-        "Rating": [],
-        "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598920/doonicans_l56zlj.jpg",
-        "status": 1
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "doonicans",
+            "slug": "doonicans",
+            "brewery": "Nuttycombe Brewery",
+            "type": "pale ale",
+            "abv": "4.2%",
+            "notes": "Melon, Malt, Apple",
+            "content": "A hearty, comforting ale with a warm, malty profile and a touch of sweetness.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598920/doonicans_l56zlj.jpg",
+            "status": 1
+        }
     },
     {
-    "Beer Name": "Wicked Wolf",
-    "slug": "wicked-wolf",
-    "Brewery": "Exmoor Brewery",
-    "Type": "Golden Ale",
-    "ABV": "4.2%",
-    "Notes": "Citrus, Pine, Malt",
-    "Content": "A fiercely flavorful ale with a wild, untamed character. Bold hops and a strong finish.",
-    "Rating": [],
-    "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598930/wickedwolf_eherri.jpg",
-    "status": 1
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "wicked_wolf",
+            "slug": "wicked-wolf",
+            "brewery": "Exmoor Brewery",
+            "type": "golden ale",
+            "abv": "4.2%",
+            "notes": "Citrus, Pine, Malt",
+            "content": "A fiercely flavorful ale with a wild, untamed character. Bold hops and a strong finish.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598930/wickedwolf_eherri.jpg",
+            "status": 1
+        }
     },
     {
-    "Beer Name": "Fox",
-    "slug": "fox",
-    "Brewery": "Exmoor Brewery",
-    "Type": "Bitter",
-    "ABV": "4.2%",
-    "Notes": "Caramel, Fruits",
-    "Content": "A cunningly crafted ale with a smooth, balanced flavor. Easy-drinking with a hint of earthiness.",
-    "Rating": [],
-    "Image": "http://example.com/fox.jpg",
-    "status": 1
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "fox",
+            "slug": "fox",
+            "brewery": "Exmoor Brewery",
+            "type": "bitter",
+            "abv": "4.2%",
+            "notes": "Caramel, Fruits",
+            "content": "A cunningly crafted ale with a smooth, balanced flavor. Easy-drinking with a hint of earthiness.",
+            "rating": [],
+            "image": "http://example.com/fox.jpg",
+            "status": 1
+        }
     },
     {
-    "Beer Name": "Drumloop",
-    "slug": "drumloop",
-    "Brewery": "Exmoor Brewery",
-    "Type": "Summer Pale Ale",
-    "ABV": "4.0%",
-    "Notes": "",
-    "Content": "A rhythmic blend of hops and malt that keeps you coming back for more. Complex and intriguing.",
-    "Rating": [],
-    "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598925/foxale_p3ibmj.jpg",
-    "status": 1
-}, {
-    "Beer Name": "S'mild",
-    "slug": "s'mild",
-    "Brewery": "The Exeter Brewery Ltd",
-    "Type": "Mild Ale",
-    "ABV": "4.0%",
-    "Notes": "Malts, Chocolate",
-    "Content": "A mild ale with a smooth, mellow flavor. Subtle notes of chocolate and caramel.",
-    "Rating": [],
-    "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598928/smild_eqfog8.jpg",
-    "status": 1
-}, {
-    "Beer Name": "Cheeseburger Chaser II",
-    "slug": "cheeseburger-chaser-ii",
-    "Brewery": "Path Finder by Exmoor Brewery",
-    "Type": "West Coast IPA",
-    "ABV": "4.0%",
-    "Notes": "",
-    "Content": "A robust beer that pairs perfectly with your favorite burger. Rich, malty, and oh-so-satisfying.",
-    "Rating": [],
-    "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596877/cheeseburgerchaserii_io1rc7.jpg",
-    "status": 1
-}, {
-    "Beer Name": "Avocet",
-    "slug": "avocet",
-    "Brewery": "The Exeter Brewery Ltd",
-    "Type": "Organic Real Ale",
-    "ABV": "3.9%",
-    "Notes": "Floral Hops",
-    "Content": "A golden ale with a light, floral aroma and a crisp, clean finish. A nod to the elegant bird.",
-    "Rating": [],
-    "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596876/avocet_h0pugp.jpg",
-    "status": 1
-}, {
-    "Beer Name": "Deckchair Dreamer",
-    "slug": "deckchair-dreamer",
-    "Brewery": "Path Finder by Exmoor Brewery",
-    "Type": "Summer Pale Ale",
-    "ABV": "3.8%",
-    "Notes": "Light, Tropical Hop Aromas",
-    "Content": "A relaxed, easy-drinking ale that transports you to a sunny beach. Light, breezy, and refreshing.",
-    "Rating": [],
-    "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598920/deckchairdreamer_dw6jej.jpg",
-    "status": 1
-}, {
-    "Beer Name": "Spring Back",
-    "slug": "spring-back",
-    "Brewery": "Broadtown Brewery",
-    "Type": "Session Ale",
-    "ABV": "3.8%",
-    "Notes": "Malts, Hops, Spring Herbs",
-    "Content": "A vibrant, lively ale that celebrates the freshness of spring. Bright hops and a burst of citrus.",
-    "Rating": [],
-    "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598929/springback_dlp6ai.jpg",
-    "status": 1
-}, {
-    "Beer Name": "Alpaca In Space",
-    "slug": "alpaca-in-space",
-    "Brewery": "Brentwood Brewing Co",
-    "Type": "New World Best",
-    "ABV": "3.4%",
-    "Notes": "Gluten Free",
-    "Content": "An out-of-this-world beer with a unique blend of flavors. Expect the unexpected in this cosmic adventure.",
-    "Rating": [],
-    "Image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596876/alpacainspace_h6o2v2.jpg",
-    "status": 1
-}]
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "drumloop",
+            "slug": "drumloop",
+            "brewery": "Exmoor Brewery",
+            "type": "summer pale ale",
+            "abv": "4.0%",
+            "notes": "",
+            "content": "A rhythmic blend of hops and malt that keeps you coming back for more. Complex and intriguing.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598925/foxale_p3ibmj.jpg",
+            "status": 1
+        }
+    },
+    {
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "s'mild",
+            "slug": "s'mild",
+            "brewery": "The Exeter Brewery Ltd",
+            "type": "mild ale",
+            "abv": "4.0%",
+            "notes": "Malts, Chocolate",
+            "content": "A mild ale with a smooth, mellow flavor. Subtle notes of chocolate and caramel.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598928/smild_eqfog8.jpg",
+            "status": 1
+        }
+    },
+    {
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "cheeseburger_chaser_ii",
+            "slug": "cheeseburger-chaser-ii",
+            "brewery": "Path Finder by Exmoor Brewery",
+            "type": "west coast ipa",
+            "abv": "4.0%",
+            "notes": "",
+            "content": "A robust beer that pairs perfectly with your favorite burger. Rich, malty, and oh-so-satisfying.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596877/cheeseburgerchaserii_io1rc7.jpg",
+            "status": 1
+        }
+    },
+    {
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "avocet",
+            "slug": "avocet",
+            "brewery": "The Exeter Brewery Ltd",
+            "type": "organic real ale",
+            "abv": "3.9%",
+            "notes": "Floral Hops",
+            "content": "A golden ale with a light, floral aroma and a crisp, clean finish. A nod to the elegant bird.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596876/avocet_h0pugp.jpg",
+            "status": 1
+        }
+    },
+    {
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "deckchair_dreamer",
+            "slug": "deckchair-dreamer",
+            "brewery": "Path Finder by Exmoor Brewery",
+            "type": "summer pale ale",
+            "abv": "3.8%",
+            "notes": "Light, Tropical Hop Aromas",
+            "content": "A relaxed, easy-drinking ale that transports you to a sunny beach. Light, breezy, and refreshing.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598920/deckchairdreamer_dw6jej.jpg",
+            "status": 1
+        }
+    },
+    {
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "spring_back",
+            "slug": "spring-back",
+            "brewery": "Broadtown Brewery",
+            "type": "session ale",
+            "abv": "3.8%",
+            "notes": "Malts, Hops, Spring Herbs",
+            "content": "A vibrant, lively ale that celebrates the freshness of spring. Bright hops and a burst of citrus.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598929/springback_dlp6ai.jpg",
+            "status": 1
+        }
+    },
+    {
+        "model": "beer_card.beer",
+        "pk": null,
+        "fields": {
+            "beer_name": "alpaca_in_space",
+            "slug": "alpaca-in-space",
+            "brewery": "Brentwood Brewing Co",
+            "type": "new world best",
+            "abv": "3.4%",
+            "notes": "Gluten Free",
+            "content": "An out-of-this-world beer with a unique blend of flavors. Expect the unexpected in this cosmic adventure.",
+            "rating": [],
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596876/alpacainspace_h6o2v2.jpg",
+            "status": 1
+        }
+    }
+]
