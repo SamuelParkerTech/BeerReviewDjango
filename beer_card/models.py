@@ -20,3 +20,14 @@ class Beer(models.Model):
     rating = models.IntegerField()
     image = CloudinaryField('image', default='placeholder') 
     status = models.IntegerField(choices=STATUS, default=0)
+
+class Review(models.Model):
+    """
+    Stores/Adds a review to the beer detail post. 
+    """
+    beer_name = models.ForeignKey(Beer, on_delete=models.CASCADE, related_name="reviews") 
+    review_content = models.TextField()
+    poster = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="reviewer")   
+    rating = models.ForeignKey(Beer, on_delete=models.CASCADE, related_name="ratings" )
+    approved = models.BooleanField(default=False)

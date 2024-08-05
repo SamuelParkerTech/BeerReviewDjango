@@ -1,7 +1,8 @@
 from django.contrib import admin
-from .models import Beer
+from .models import Beer, Review
 
 # Register your models here.
 admin.site.register(Beer)
+admin.site.register(Review)
 
-# Register your models here.
+
