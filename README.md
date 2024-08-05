@@ -36,6 +36,8 @@ The target audience for this website is largely attendees of the festival who we
 
 # Project Board
 
+https://github.com/users/SamuelParkerTech/projects/8
+
 # Live Deployment
 
 # Design 
@@ -93,6 +95,11 @@ Live link to page: https://miro.com/welcomeonboard/SlV6RzNtRGxOU2JkRXRXVVQ2cXRXZ
 
 The main welcome page features a challenge ID age modal, if this is clicked no it redirects to google. 
 ![image](https://github.com/user-attachments/assets/6c0f2811-d803-4a48-adb9-5dca03778843)
+
+
+Django / Admin page 
+
+![image](https://github.com/user-attachments/assets/0a99995b-a892-4dd5-b52b-47497a132435)
 
 
 # Technology
