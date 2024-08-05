@@ -11,12 +11,12 @@
 - [Wireframes](#Wireframes)
 - [ERD Designs](#ERD-Designs)
 - [Features](#Features)
-- [Technology](#Technology)
-- [Future Features](#Future-Features)
 - [Testing](#Testing)
 - [Validator Testing](#Validator-Testing)
+- [Future Features](#Future-Features)
 - [Credits](#Credits)
 - [Content Credit](#Content-Credit)
+- [Technology](#Technology)-
 - [Further Thoughts](#Further-Thoughts)
 
 # About
@@ -101,14 +101,11 @@ Django / Admin page
 
 ![image](https://github.com/user-attachments/assets/0a99995b-a892-4dd5-b52b-47497a132435)
 
-
-# Technology
-
-# Future Features
-
 # Testing
 
 # Validator Testing
+
+# Future Features
 
 # Credits
 
@@ -117,6 +114,19 @@ Django / Admin page
 Carew Pub Images coutesy of Out and Abouts Images https://www.outandaboutimages.co.uk/ \
 ChatGPT - Content Creation. Descriptions of some beers was tweaked with ChatGPT. \
 Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/ 
+
+# Technology
+
+* Github - Version Control & Project Kanban / Issues
+* Gitpod - Code Editor
+* Django - Python Framework
+* BootStrap - CSS Framework
+* FontAwesome - Social Icons
+* Google Fonts - Oswald Font
+* Miro - ERD Creation board
+* Coolors.io - Colour pallette/tone helper
+* Google Sheets - Data collection & creation
+* Trello - Project Assessment Criteria Tracker
 
 # Further Thoughts
 
