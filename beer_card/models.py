@@ -18,7 +18,7 @@ class Beer(models.Model):
     abv = models.CharField(max_length=50,)
     notes = models.CharField(max_length=200,)
     content = models.TextField()
-    rating = models.FloatField()
+    ArrayField(models.IntegerField(), default=list)
     image = CloudinaryField('image', default='placeholder') 
     status = models.IntegerField(choices=STATUS, default=0)
     """
