@@ -10,7 +10,6 @@
             "abv": "6.6%",
             "notes": "Toffee, Treacle",
             "content": "This used to be the starter beer, the strongest beer at the festival, either start big or end big and go home. A strong dark porter which in recent years has been left behind by dark beers in the double figure ABV. A festival stalwart, you know what your getting with the Beast.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598924/exmoorbeastbeer_fpgh5l.jpg",
             "status": 1
         }
@@ -26,7 +25,6 @@
             "abv": "3.4%",
             "notes": "",
             "content": "Wotter Shot! - A beer brewed for the Euros in 2024. Unfortunately, the football didn't come home but this session beer will have you singing 3 lions in no time. An easy to drink session beer.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598930/wottershot_dragoh.jpg",
             "status": 1
         }
@@ -42,7 +40,6 @@
             "abv": "5.8%",
             "notes": "Caramel, Dark Fruit",
             "content": "A rich and full-bodied ale with a smooth, malty backbone and a touch of caramel sweetness.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598927/otterhead_l3ae8u.jpg",
             "status": 1
         }
@@ -58,7 +55,6 @@
             "abv": "4.6%",
             "notes": "Malt, Biscuit",
             "content": "An award-winning brew that showcases the best of traditional county ales. Smooth, balanced, and utterly satisfying.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596935/countybest_fw46z7.jpg",
             "status": 1
         }
@@ -74,7 +70,6 @@
             "abv": "4.5%",
             "notes": "Caramel, Malt",
             "content": "A well-rounded ale with a harmonious blend of malt and hops, delivering a delightful taste of the countryside.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598926/otterale_v3ur16.jpg",
             "status": 1
         }
@@ -90,7 +85,6 @@
             "abv": "4.5%",
             "notes": "Citrus Hops",
             "content": "A classic English ale with a rich, malty flavor and a hint of fruitiness. Timeless and reliable.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596877/cotleigh45_j5bchg.jpg",
             "status": 1
         }
@@ -106,7 +100,6 @@
             "abv": "4.4%",
             "notes": "",
             "content": "A quirky and imaginative brew that pushes the boundaries of traditional beer-making. Expect the unexpected!",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598919/daftcraft_s0lyrg.jpg",
             "status": 1
         }
@@ -122,7 +115,6 @@
             "abv": "4.3%",
             "notes": "Citrus Aromas",
             "content": "A light, crisp, and refreshing ale with a zesty finish. Perfect for those sunny days.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598927/otterbright_c1htxc.jpg",
             "status": 1
         }
@@ -138,7 +130,6 @@
             "abv": "4.2%",
             "notes": "Melon, Malt, Apple",
             "content": "A hearty, comforting ale with a warm, malty profile and a touch of sweetness.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598920/doonicans_l56zlj.jpg",
             "status": 1
         }
@@ -154,7 +145,6 @@
             "abv": "4.2%",
             "notes": "Citrus, Pine, Malt",
             "content": "A fiercely flavorful ale with a wild, untamed character. Bold hops and a strong finish.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598930/wickedwolf_eherri.jpg",
             "status": 1
         }
@@ -170,7 +160,6 @@
             "abv": "4.2%",
             "notes": "Caramel, Fruits",
             "content": "A cunningly crafted ale with a smooth, balanced flavor. Easy-drinking with a hint of earthiness.",
-            "rating": [],
             "image": "http://example.com/fox.jpg",
             "status": 1
         }
@@ -186,7 +175,6 @@
             "abv": "4.0%",
             "notes": "",
             "content": "A rhythmic blend of hops and malt that keeps you coming back for more. Complex and intriguing.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598925/foxale_p3ibmj.jpg",
             "status": 1
         }
@@ -202,7 +190,6 @@
             "abv": "4.0%",
             "notes": "Malts, Chocolate",
             "content": "A mild ale with a smooth, mellow flavor. Subtle notes of chocolate and caramel.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598928/smild_eqfog8.jpg",
             "status": 1
         }
@@ -218,7 +205,6 @@
             "abv": "4.0%",
             "notes": "",
             "content": "A robust beer that pairs perfectly with your favorite burger. Rich, malty, and oh-so-satisfying.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596877/cheeseburgerchaserii_io1rc7.jpg",
             "status": 1
         }
@@ -234,7 +220,6 @@
             "abv": "3.9%",
             "notes": "Floral Hops",
             "content": "A golden ale with a light, floral aroma and a crisp, clean finish. A nod to the elegant bird.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596876/avocet_h0pugp.jpg",
             "status": 1
         }
@@ -250,7 +235,6 @@
             "abv": "3.8%",
             "notes": "Light, Tropical Hop Aromas",
             "content": "A relaxed, easy-drinking ale that transports you to a sunny beach. Light, breezy, and refreshing.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598920/deckchairdreamer_dw6jej.jpg",
             "status": 1
         }
@@ -266,7 +250,6 @@
             "abv": "3.8%",
             "notes": "Malts, Hops, Spring Herbs",
             "content": "A vibrant, lively ale that celebrates the freshness of spring. Bright hops and a burst of citrus.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598929/springback_dlp6ai.jpg",
             "status": 1
         }
@@ -282,7 +265,6 @@
             "abv": "3.4%",
             "notes": "Gluten Free",
             "content": "An out-of-this-world beer with a unique blend of flavors. Expect the unexpected in this cosmic adventure.",
-            "rating": [],
             "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722596876/alpacainspace_h6o2v2.jpg",
             "status": 1
         }
