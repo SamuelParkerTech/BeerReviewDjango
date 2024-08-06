@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.core.validators import MinValueValidator, MaxValueValidator
+from django.contrib.postgres.fields import ArrayField
 from cloudinary.models import CloudinaryField
 
 STATUS = ((0, "Draft"), (1, "Published"))
@@ -18,7 +19,7 @@ class Beer(models.Model):
     abv = models.CharField(max_length=50,)
     notes = models.CharField(max_length=200,)
     content = models.TextField()
-    ArrayField(models.IntegerField(), default=list)
+    rating = ArrayField(models.IntegerField(), default=list)
     image = CloudinaryField('image', default='placeholder') 
     status = models.IntegerField(choices=STATUS, default=0)
     """
