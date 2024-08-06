@@ -137,6 +137,10 @@ Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/
 * Google Sheets - Data collection & creation
 * Trello - Project Assessment Criteria Tracker
 
+## Django Plugins
+
+
+
 # Further Thoughts
 
 
