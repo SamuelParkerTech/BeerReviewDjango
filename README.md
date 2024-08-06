@@ -94,7 +94,7 @@ Live link to page: https://miro.com/welcomeonboard/SlV6RzNtRGxOU2JkRXRXVVQ2cXRXZ
 
 # Database
 
-The main data for the database was created from the beers on offer at the beer festival. Once I had the list and images needed I added this data to an google sheet. I used ChatGPT to convert this data to in to a JSON form. 
+The main data for the database was created from the beers on offer at the beer festival. Once I had the list and images needed I added this data to a google sheet. I used ChatGPT to convert this data to in to a JSON form to save time. 
 
 ![image](https://github.com/user-attachments/assets/ba77e065-8963-4906-8a9e-348b92d83b22)
 
