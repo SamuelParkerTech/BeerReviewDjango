@@ -10,6 +10,7 @@
 - [Design](#Design)
 - [Wireframes](#Wireframes)
 - [ERD Designs](#ERD-Designs)
+- [Database](#Database)
 - [Features](#Features)
 - [Testing](#Testing)
 - [Validator Testing](#Validator-Testing)
@@ -90,6 +91,16 @@ I have chosen a hero image of the exterior of the pub which will form the main b
 For the ERD design I have used MIRO to create these. 
 
 Live link to page: https://miro.com/welcomeonboard/SlV6RzNtRGxOU2JkRXRXVVQ2cXRXZHVBa0VrMnNiRlAweGdGUE5Qa3N1NEVLVWVVRGZYOXVZVExFaVg0RW9tU3wzNDU4NzY0NTg3NDg4NjQwODQwfDI=?share_link_id=241379904065
+
+# Database
+
+The main data for the database was created from the beers on offer at the beer festival. Once I had the list and images needed I added this data to an google sheet. I used ChatGPT to convert this data to in to a JSON form. 
+
+![image](https://github.com/user-attachments/assets/ba77e065-8963-4906-8a9e-348b92d83b22)
+
+![image](https://github.com/user-attachments/assets/bcb4c5a5-6c58-4158-b805-5eef4d73effd)
+
+I also expanded the listings in order to match my ERD tables. The design of which were relatively fluid as during the creation process. 
 
 # Features
 
