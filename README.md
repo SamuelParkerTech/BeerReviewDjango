@@ -98,9 +98,8 @@ The main data for the database was created from the beers on offer at the beer f
 
 ![image](https://github.com/user-attachments/assets/ba77e065-8963-4906-8a9e-348b92d83b22)
 
-![image](https://github.com/user-attachments/assets/bcb4c5a5-6c58-4158-b805-5eef4d73effd)
-
-I also expanded the listings in order to match my ERD tables. The design of which were relatively fluid as during the creation process. 
+I also expanded the listings in order to match my ERD tables. The design of which were relatively fluid as during the creation process. I had a few issues during the loading of the data from posts.json due to changes to my model, a good lesson in making sure you know exactly what fields are required. In the end I had to manually remove the ratings table column and once that was sorted I was able to load the data successfully. 
+![image](https://github.com/user-attachments/assets/82163a9e-aacb-4749-b673-7aae6bca5085)
 
 # Features
 
