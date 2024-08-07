@@ -1,3 +1,79 @@
-h1 {
-    color: red;
+
+/* Universal Styles */
+
+body {
+    font-family: Oswald, sans-serif;
+    background: url("https://res.cloudinary.com/dzkbptwr7/image/upload/v1722514193/carewresize_wrcjgn.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 80px;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #C6A15B;
+    color: #ffffff
+}
+
+nav a {
+    color: #ffffff !important;
+}
+
+/* Main Page and Content */
+
+#title {
+    color: #C6A15B;
+    text-align: center;
+    font-size: 150px;
+    background-color: rgba(240, 240, 240, 0.8);
     }
+
+/* card background change on hover and text not underlined due to links */
+.card-link {
+    text-decoration: none !important;
+}
+
+.border-warning:hover {
+    border-color: blue !important;
+}
+
+/* Footer */
+#footer {
+    background-color: #C6A15B; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 80px;
+    padding: 0;
+    z-index: 1000; 
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0.5rem;
+    color: #ffffff;
+    font-size: medium;
+
+}
+
+footer i {
+    font-size: 1rem; 
+}
+
+footer a {
+    font-size: 1rem; 
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 200%;
+    }
+}
