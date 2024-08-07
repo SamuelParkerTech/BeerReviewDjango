@@ -29,8 +29,13 @@ nav a {
     background-color: rgba(240, 240, 240, 0.8);
     }
 
-/* Review Page card / Image sizes */
+.card-link {
+    text-decoration: none !important;
+}
 
+.border-warning:hover {
+    border-color: blue !important;
+}
 
 /* Footer */
 #footer {
