@@ -119,19 +119,9 @@
   <!-- Font Awesome Script-->
   <script src="https://kit.fontawesome.com/c25dc1f8ed.js" crossorigin="anonymous"></script>
   <!-- Modal JS-->
-  <script>
-    // JavaScript calls a Age Verification Modal
-    document.addEventListener('DOMContentLoaded', function () {
-      var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
-      myModal.show();
-    });
+  <script src="{% static 'js/script.js'%}">
+  </script>
 
-    // JavaScript for handling button clicks
-    document.getElementById('noButton').addEventListener('click', function () {
-      window.location.href = 'https://www.google.co.uk';
-    });
-  </script>
-  </script>
 </body>
 
 </html>
