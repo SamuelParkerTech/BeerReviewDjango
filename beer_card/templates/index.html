@@ -15,7 +15,7 @@
                         alt="Image of Pint Glass with Beer (placeholder image)">
                     {% else %}
                     <img src="{{ beer.image }}" class="card-img-top"
-                        alt="Image of Beer Pump for Beer {beer.beer_name}">
+                        alt="Image of Beer Pump for Beer {{ beer.beer_name }}">
                     <div class="card-body">
                         {% endif %}
                         <h5 class="card-title">{{ beer.beer_name }}</h5>
