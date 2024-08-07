@@ -3,7 +3,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "beast",
+            "beer_name": "Beast",
             "slug": "beast",
             "brewery": "Exmoor Brewery",
             "style": "dark porter",
@@ -18,7 +18,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "wotter_shot!",
+            "beer_name": "Wotter Shot!",
             "slug": "wotter-shot",
             "brewery": "Otter Brewery",
             "style": "session bitter",
@@ -33,7 +33,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "otter_head",
+            "beer_name": "Otter Head",
             "slug": "otter-head",
             "brewery": "Otter Brewery",
             "style": "ale",
@@ -48,7 +48,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "county_best",
+            "beer_name": "County Best",
             "slug": "county-best",
             "brewery": "The Exeter Brewery Ltd",
             "style": "best bitter",
@@ -63,7 +63,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "otter_ale",
+            "beer_name": "Otter Ale",
             "slug": "otter-ale",
             "brewery": "Otter Brewery",
             "style": "ale",
@@ -78,7 +78,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "cotleigh_45",
+            "beer_name": "Cotleigh 45",
             "slug": "cotleigh-45",
             "brewery": "Nuttycombe Brewery",
             "style": "pale ale",
@@ -93,7 +93,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "daft_craft",
+            "beer_name": "Daft Craft",
             "slug": "daft-craft",
             "brewery": "Nuttycombe Brewery",
             "style": "american pale ale",
@@ -108,7 +108,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "otter_bright",
+            "beer_name": "Otter Bright",
             "slug": "otter-bright",
             "brewery": "Otter Brewery",
             "style": "golden ale",
@@ -123,7 +123,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "doonicans",
+            "beer_name": "Doonicans",
             "slug": "doonicans",
             "brewery": "Nuttycombe Brewery",
             "style": "pale ale",
@@ -138,7 +138,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "wicked_wolf",
+            "beer_name": "Wicked Wolf",
             "slug": "wicked-wolf",
             "brewery": "Exmoor Brewery",
             "style": "golden ale",
@@ -153,7 +153,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "fox",
+            "beer_name": "Fox",
             "slug": "fox",
             "brewery": "Exmoor Brewery",
             "style": "bitter",
@@ -168,7 +168,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "drumloop",
+            "beer_name": "Drumloop",
             "slug": "drumloop",
             "brewery": "Exmoor Brewery",
             "style": "summer pale ale",
@@ -183,7 +183,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "s'mild",
+            "beer_name": "S'mild",
             "slug": "s'mild",
             "brewery": "The Exeter Brewery Ltd",
             "style": "mild ale",
@@ -198,7 +198,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "cheeseburger_chaser_ii",
+            "beer_name": "Cheeseburger Chaser II",
             "slug": "cheeseburger-chaser-ii",
             "brewery": "Path Finder by Exmoor Brewery",
             "style": "west coast ipa",
@@ -213,7 +213,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "avocet",
+            "beer_name": "Avocet",
             "slug": "avocet",
             "brewery": "The Exeter Brewery Ltd",
             "style": "organic real ale",
@@ -228,7 +228,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "deckchair_dreamer",
+            "beer_name": "Deckchair Dreamer",
             "slug": "deckchair-dreamer",
             "brewery": "Path Finder by Exmoor Brewery",
             "style": "summer pale ale",
@@ -243,7 +243,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "spring_back",
+            "beer_name": "Spring Back",
             "slug": "spring-back",
             "brewery": "Broadtown Brewery",
             "style": "session ale",
@@ -258,7 +258,7 @@
         "model": "beer_card.beer",
         "pk": null,
         "fields": {
-            "beer_name": "alpaca_in_space",
+            "beer_name": "Alpaca In Space",
             "slug": "alpaca-in-space",
             "brewery": "Brentwood Brewing Co",
             "style": "new world best",
