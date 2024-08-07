@@ -8,7 +8,7 @@
         <!-- Code to be iterated to create numerous cards from database -->
         {% for beer in beer_list %}
         <div class="col-md-4 col-12 mb-4 link_highlight">
-            <a href="" class="card-link">
+            <a href="{% url 'beer_detail' beer.slug %}" class="card-link">
                 <div class="card border-warning">
                     {% if "placeholder" in beer.image.url %}
                     <img src="{% static 'images/pintglass.jpg' %}" class="card-img-top"
