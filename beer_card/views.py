@@ -8,25 +8,12 @@ class BeerList(generic.ListView):
     template_name = "index.html"
 
 
-def beer_detail(request, slug):
-    """
-    Display an individual :model:`beer.Post`.
-
-    **Context**
-
-    ``post``
-        An instance of :model:`blog.Post`.
-
-    **Template:**
-
-    :template:`blog/post_detail.html`
-    """
-
+def beer_detail(request, slug):  
     queryset = Beer.objects.filter(status=1)
     beer = get_object_or_404(queryset, slug=slug)
 
     return render(
         request,
-        "beer_card/beer_detail.html",
+        "beer_detail.html",
         {"beer": beer},
     )
