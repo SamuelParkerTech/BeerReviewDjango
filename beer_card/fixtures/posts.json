@@ -160,7 +160,7 @@
             "abv": "4.2%",
             "notes": "Caramel, Fruits",
             "content": "A cunningly crafted ale with a smooth, balanced flavor. Easy-drinking with a hint of earthiness.",
-            "image": "http://example.com/fox.jpg",
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598925/foxale_p3ibmj.jpg",
             "status": 1
         }
     },
@@ -175,7 +175,7 @@
             "abv": "4.0%",
             "notes": "",
             "content": "A rhythmic blend of hops and malt that keeps you coming back for more. Complex and intriguing.",
-            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598925/foxale_p3ibmj.jpg",
+            "image": "https://res.cloudinary.com/dzkbptwr7/image/upload/v1722598924/drumloop_ec5mur.jpg",
             "status": 1
         }
     },
