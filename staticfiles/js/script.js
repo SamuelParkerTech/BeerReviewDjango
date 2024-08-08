@@ -1,16 +1,5 @@
 // JavaScript calls a Age Verification Modal
-/*
 
-document.addEventListener('DOMContentLoaded', function () {
-    var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
-    myModal.show();
-});
-
-// JavaScript for handling button clicks
-document.getElementById('noButton').addEventListener('click', function () {
-    window.location.href = 'https://www.google.co.uk';
-});
-*/
 // Function to get a cookie by name
 function getCookie(name) {
     let cookieArr = document.cookie.split(";");
@@ -52,5 +41,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Easter Egg Quote
 console.log(" 'Six pints of bitter,' said Ford Prefect, 'and quickly please, the world's about to end.' - Douglas Adams HHGTTG");
 

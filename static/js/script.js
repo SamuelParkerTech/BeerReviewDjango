@@ -41,5 +41,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Easter Egg Quote
 console.log(" 'Six pints of bitter,' said Ford Prefect, 'and quickly please, the world's about to end.' - Douglas Adams HHGTTG");
 
