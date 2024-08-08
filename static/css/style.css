@@ -78,7 +78,11 @@ footer a {
     background-color: rgba(240, 240, 240, 0.8);
 }
 
+/* Review Form */
 
+#reviewform {
+    text-align: center;
+}
 
 /* Media Queries */
 
