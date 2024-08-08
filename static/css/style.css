@@ -70,19 +70,15 @@ footer a {
 
 /* Sign in and Log Out pages */
 
-.signout {
+.signing {
     color: #C6A15B;
     font-family: Oswald, sans-serif;
+    font-weight: 600;
     text-align: center;
     background-color: rgba(240, 240, 240, 0.8);
 }
 
-.signin {
-    color: #C6A15B;
-    font-family: Oswald, sans-serif;
-    text-align: center;
-    background-color: rgba(240, 240, 240, 0.8);
-}
+
 
 /* Media Queries */
 
