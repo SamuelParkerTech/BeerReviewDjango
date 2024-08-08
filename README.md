@@ -14,6 +14,7 @@
 - [Features](#Features)
 - [Testing](#Testing)
 - [Validator Testing](#Validator-Testing)
+- [Deployment] (#Deployment)
 - [Future Features](#Future-Features)
 - [Credits](#Credits)
 - [Content Credit](#Content-Credit)
@@ -132,13 +133,15 @@ For users authentication I have used All Auth - https://docs.allauth.org/en/late
 
 # Validator Testing
 
+# Deployment
+
 # Future Features
 
 # Credits
 
 # Content Credit
 
-Carew Pub Images coutesy of Out and Abouts Images https://www.outandaboutimages.co.uk/ \
+Carew Pub Images courtesy of Out and Abouts Images https://www.outandaboutimages.co.uk/ \
 ChatGPT - Content Creation. Descriptions of some beers was tweaked with ChatGPT. \
 Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/ 
 
