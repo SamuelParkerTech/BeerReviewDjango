@@ -14,7 +14,7 @@
 - [Features](#Features)
 - [Testing](#Testing)
 - [Validator Testing](#Validator-Testing)
-- [Deployment] (#Deployment)
+- [Deployment via Heroku](#Deployment-Via-Heroku)
 - [Future Features](#Future-Features)
 - [Credits](#Credits)
 - [Content Credit](#Content-Credit)
@@ -133,7 +133,7 @@ For users authentication I have used All Auth - https://docs.allauth.org/en/late
 
 # Validator Testing
 
-# Deployment
+# Deployment Via Heroku
 
 # Future Features
 
