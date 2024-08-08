@@ -20,6 +20,9 @@ def beer_detail(request, slug):
             review = review_form.save(commit=False)
             review.poster = request.user
             review.beer_name = beer_name
+            review.review_title = review_title
+            review.review_content = review_content
+            review.rating = rating
             review.save()
     
     review_form = ReviewForm()
@@ -30,5 +33,5 @@ def beer_detail(request, slug):
         {"beer": beer,
         "reviews": reviews,
         "reviews_count": reviews_count, 
-        "review_form": review_form},
+        "review_form": review_form,},
     )

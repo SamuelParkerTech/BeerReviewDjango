@@ -69,13 +69,14 @@
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     {% if user.is_authenticated %}
-                    <form>
+                    <form id="reviewForm" method="post"> 
+                        {% csrf_token %}
                         <div class="mb-3">
                             <label for="reviewTitle" class="form-label">Title</label>
                             <input type="text" class="form-control" id="reviewTitle" placeholder="Enter title">
                         </div>
                         <div class="mb-3">
-                            <label for="reviewComment" class="form-label">Comment</label>
+                            <label for="reviewComment" class="form-label">Review</label>
                             <textarea class="form-control" id="reviewComment" rows="3"
                                 placeholder="Enter your comment"></textarea>
                         </div>
