@@ -103,9 +103,21 @@ I also expanded the listings in order to match my ERD tables. The design of whic
 
 # Features
 
-The main welcome page features a challenge ID age modal, if this is clicked no it redirects to google. 
+The main welcome page features a challenge ID age modal, if this is clicked no it redirects to google. It saves a cookie and will not display again for 30 days. 
 
-Django / Admin page 
+## Sign In Page
+
+![image](https://github.com/user-attachments/assets/29eb5d1d-60ae-4840-a061-31358456e938)
+
+## Sign Up Page
+
+![image](https://github.com/user-attachments/assets/7de67ef1-b85d-4ba5-9b1c-98639011316c)
+
+## Logged In
+
+![image](https://github.com/user-attachments/assets/11487944-c6ca-41de-947b-3d36d4663a76)
+
+## Django / Admin page 
 
 ![image](https://github.com/user-attachments/assets/0a99995b-a892-4dd5-b52b-47497a132435)
 
