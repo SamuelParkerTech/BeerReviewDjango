@@ -109,6 +109,7 @@ Django / Admin page
 
 ![image](https://github.com/user-attachments/assets/0a99995b-a892-4dd5-b52b-47497a132435)
 
+For users authentication I have used All Auth - https://docs.allauth.org/en/latest/installation/quickstart.html
 # Testing
 
 # Validator Testing
@@ -135,6 +136,7 @@ Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/
 * Coolors.io - Colour pallette/tone helper
 * Google Sheets - Data collection & creation
 * Trello - Project Assessment Criteria Tracker
+* AllAuth
 
 ## Django Requirements
 
@@ -143,9 +145,14 @@ Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/
 * dj-database-url==0.5.0
 * dj3-cloudinary-storage==0.0.6
 * Django==4.2.14
+* django-allauth==0.57.2
 * django-summernote==0.8.20.0
 * gunicorn==20.1.0
+* oauthlib==3.2.2
 * psycopg==3.2.1
+* PyJWT==2.9.0
+* python3-openid==3.2.0
+* requests-oauthlib==2.0.0
 * sqlparse==0.5.1
 * urllib3==1.26.19
 * whitenoise==5.3.0
