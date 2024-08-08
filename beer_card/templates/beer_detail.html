@@ -68,6 +68,7 @@
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
+                    {% if user.is_authenticated %}
                     <form>
                         <div class="mb-3">
                             <label for="reviewTitle" class="form-label">Title</label>
@@ -91,6 +92,9 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
+                    {% else %}
+                    <p>Please log in to leave a review</p>
+                    {% endif %}
                 </div>
             </div>
         </div>
