@@ -113,9 +113,15 @@ The main welcome page features a challenge ID age modal, if this is clicked no i
 
 ![image](https://github.com/user-attachments/assets/7de67ef1-b85d-4ba5-9b1c-98639011316c)
 
-## Logged In
+## Logged In/Out
+The user is displayed at the top right with a message "you are logged in as ..." as well as a link to log out. 
+If no user is loggged in they are shown options Register, Login and "You are not logged in"
 
 ![image](https://github.com/user-attachments/assets/11487944-c6ca-41de-947b-3d36d4663a76)
+![image](https://github.com/user-attachments/assets/3727d098-1995-49fc-9f1f-e06b7e13064d)
+
+On log out they are asked if they wish to confirm logout. 
+![image](https://github.com/user-attachments/assets/c427a0c2-0436-4a03-931e-72d2b0b45de4)
 
 ## Django / Admin page 
 
