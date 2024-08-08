@@ -11,9 +11,13 @@ class BeerList(generic.ListView):
 def beer_detail(request, slug):  
     queryset = Beer.objects.filter(status=1)
     beer = get_object_or_404(queryset, slug=slug)
+    reviews = beer.reviews.all().order_by("-created_on")
+    reviews_count = beer.reviews.filter(approved=True).count()
 
     return render(
         request,
         "beer_detail.html",
-        {"beer": beer},
+        {"beer": beer,
+        "reviews": reviews,
+        "reviews_count": reviews_count },
     )
