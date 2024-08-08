@@ -19,12 +19,13 @@ def beer_detail(request, slug):
         if review_form.is_valid():
             review = review_form.save(commit=False)
             review.poster = request.user
-            review.beer_name = beer_name
             review.review_title = review_title
             review.review_content = review_content
             review.rating = rating
             review.save()
-    
+            messages.add_message(
+                request, messages.SUCCESS,  'Review has been submitted for approval'
+            )
     review_form = ReviewForm()
 
     return render(
