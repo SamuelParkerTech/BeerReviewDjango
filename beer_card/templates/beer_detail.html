@@ -41,7 +41,7 @@
                     <li class="list-group-item"><strong>Title: </strong>{{ review.review_title }}</li>
                     <li class="list-group-item"><strong>Review: </strong>{{ review.review_content }}</li>
                     <li class="list-group-item"><strong>Poster: </strong>{{ review.poster }}</li>
-                    <li class="list-group-item"><strong>Rating: </strong>{Filled from Database Model}</li>
+                    <li class="list-group-item"><strong>Rating: </strong>{{ review.rating }}</li>
                 </ul>
                 <!-- view edit / delete buttons IF user is logged in and matches comment -->
                 {% if user.is_authenticated and review.poster == user %}
@@ -71,26 +71,7 @@
                     {% if user.is_authenticated %}
                     <form id="reviewForm" method="post"> 
                         {% csrf_token %}
-                        <div class="mb-3">
-                            <label for="reviewTitle" class="form-label">Title</label>
-                            <input type="text" class="form-control" id="reviewTitle" placeholder="Enter title">
-                        </div>
-                        <div class="mb-3">
-                            <label for="reviewComment" class="form-label">Review</label>
-                            <textarea class="form-control" id="reviewComment" rows="3"
-                                placeholder="Enter your comment"></textarea>
-                        </div>
-                        <div class="input-group mb-3">
-                            <label class="input-group-text" for="inputGroupSelect01">Rating</label>
-                            <select class="form-select" id="inputGroupSelect01">
-                                <option selected>Choose...</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                                <option value="4">Four</option>
-                                <option value="5">Five</option>
-                            </select>
-                        </div>
+                        {{ review_form }}
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                     {% else %}
