@@ -65,8 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 ratingInput.value = reviewRating;
             }
             submitButton.innerText = 'Update';
-
-            reviewForm.setAttribute('action', `/edit_review/${reviewId}/`);
+            // if this is set to commentId I get a NEW review. if it is set to reviewId you get a url error when posting. 
+            reviewForm.setAttribute('action', `/edit_review/${commentId}/`);
         });
     }
 });
