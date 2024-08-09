@@ -5,6 +5,7 @@ from .models import Beer, Review
 from .forms import ReviewForm
 from django.contrib import messages
 from django.http import HttpResponseRedirect
+from django.db.models import Avg
 
 class BeerList(generic.ListView):
     queryset = Beer.objects.all()
@@ -16,6 +17,7 @@ def beer_detail(request, slug):
     beer = get_object_or_404(queryset, slug=slug)
     reviews = beer.reviews.all().order_by("-created_on")
     reviews_count = beer.reviews.filter(approved=True).count()
+    average_rating = reviews.aggregate(Avg('rating'))['rating__avg']
 
     if request.method == "POST": 
         review_form = ReviewForm(data=request.POST)
@@ -43,7 +45,8 @@ def beer_detail(request, slug):
         {"beer": beer,
         "reviews": reviews,
         "reviews_count": reviews_count, 
-        "review_form": review_form,},
+        "review_form": review_form,
+        "average_rating" : average_rating},
     )
 
 def review_edit(request, slug, review_id):
@@ -60,7 +63,7 @@ def review_edit(request, slug, review_id):
             review.review_title = review_form.cleaned_data.get('review_title')
             review.review_content = review_form.cleaned_data.get('review_content')
             review.rating = review_form.cleaned_data.get('rating')
-            review.beer_name = beer  # Explicitly associate the review with the beer
+            review.beer_name = beer  
             review.save()
             messages.add_message(request, messages.SUCCESS,  'Review has been edited successfully')
         else:
