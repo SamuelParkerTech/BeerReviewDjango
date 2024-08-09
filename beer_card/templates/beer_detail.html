@@ -41,7 +41,7 @@
                     <li class="list-group-item"><strong>Title: </strong>{{ review.review_title }}</li>
                     <li class="list-group-item"><strong>Review: </strong>{{ review.review_content }}</li>
                     <li class="list-group-item"><strong>Poster: </strong>{{ review.poster }}</li>
-                    <li class="list-group-item"><strong>Rating: </strong>{{ review.rating }}</li>
+                    <li class="list-group-item"><strong>Rating: </strong>{{ review.rating }} / out of 5</li>
                 </ul>
                 <!-- view edit / delete buttons IF user is logged in and matches comment -->
                 {% if user.is_authenticated and review.poster == user %}
