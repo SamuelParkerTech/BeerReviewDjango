@@ -1,9 +1,10 @@
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.views.generic import TemplateView
 from django.views import generic
-from .models import Beer
+from .models import Beer, Review
 from .forms import ReviewForm
 from django.contrib import messages
+from django.http import HttpResponseRedirect
 
 class BeerList(generic.ListView):
     queryset = Beer.objects.all()
@@ -44,3 +45,24 @@ def beer_detail(request, slug):
         "reviews_count": reviews_count, 
         "review_form": review_form,},
     )
+
+def review_edit(request, slug, review_id):
+    if request.method == "POST":
+
+        queryset = Beer.objects.filter(status=1)
+        beer = get_object_or_404(queryset, slug=slug)
+        review = get_object_or_404(Review, pk=review_id)
+        review_form = ReviewForm(data=request.POST, instance=review)
+    
+        if review_form.is_valid():
+            review = review_form.save(commit=False)
+            review.poster = request.user
+            review.review_title = review_form.cleaned_data.get('review_title')
+            review.review_content = review_form.cleaned_data.get('review_content')
+            review.rating = review_form.cleaned_data.get('rating')
+            review.beer_name = beer  # Explicitly associate the review with the beer
+            review.save()
+            messages.add_message(request, messages.SUCCESS,  'Review has been edited successfully')
+        else:
+            messages.add_message(request, messages.ERROR, 'Error updating Review!')
+    return HttpResponseRedirect(reverse('beer_detail', args=[slug]))

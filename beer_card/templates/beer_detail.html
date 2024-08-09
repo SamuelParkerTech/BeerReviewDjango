@@ -41,12 +41,12 @@
                     <li class="list-group-item"><strong>Title: </strong>{{ review.review_title }}</li>
                     <li class="list-group-item"><strong>Review: </strong>{{ review.review_content }}</li>
                     <li class="list-group-item"><strong>Poster: </strong>{{ review.poster }}</li>
-                    <li class="list-group-item"><strong>Rating: </strong>{{ review.rating }}</li>
+                    <li class="list-group-item"><strong>Rating: </strong>{{ review.rating }} / out of 5</li>
                 </ul>
                 <!-- view edit / delete buttons IF user is logged in and matches comment -->
                 {% if user.is_authenticated and review.poster == user %}
-                <button type="button" class="btn btn-secondary">Edit</button>
-                <button type="button" class="btn btn-danger">Delete</button>
+                <button type="button" class="btn btn-secondary btn-edit" data-comment-id="{{ review.id }}">Edit</button>
+                <button type="button" class="btn btn-danger" data-comment-id="{{ review.id }}">Delete</button>
                 {% endif %}
             </div>
         </div>
@@ -72,7 +72,7 @@
                     <form id="reviewForm" method="post"> 
                         {% csrf_token %}
                         {{ review_form }}
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
                     </form>
                     {% else %}
                     <p>Please log in to leave a review</p>
