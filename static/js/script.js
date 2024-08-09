@@ -58,10 +58,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
             reviewText.value = reviewContent;
             reviewForm.querySelector('input[name="review_title"]').value = reviewTitle;
-            reviewForm.querySelector('input[name="rating"]').value = reviewRating;
+            reviewForm.querySelector('textarea[name="review_content"]').value = reviewContent;
+            
+            const ratingInput = reviewForm.querySelector('input[name="rating"]');
+            if (ratingInput) {
+                ratingInput.value = reviewRating;
+            }
             submitButton.innerText = 'Update';
 
-            reviewForm.setAttribute('action', `/edit_review/${commentId}/`);
+            reviewForm.setAttribute('action', `/edit_review/${reviewId}/`);
         });
     }
 });
