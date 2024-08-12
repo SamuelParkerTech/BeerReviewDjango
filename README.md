@@ -163,6 +163,10 @@ If no user is loggged in they are shown options Register, Login and "You are not
 On log out they are asked if they wish to confirm logout. 
 ![image](https://github.com/user-attachments/assets/c427a0c2-0436-4a03-931e-72d2b0b45de4)
 
+I checked responsiveness on other sites throughout the development process, I also used Am I Responsive for this. https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev
+
+![image](https://github.com/user-attachments/assets/23734750-7b54-458f-a04f-0da8b0667ac2)
+
 ## Django / Admin page 
 
 ![image](https://github.com/user-attachments/assets/0a99995b-a892-4dd5-b52b-47497a132435)
@@ -186,8 +190,10 @@ On some pages you get a Javascript error TypeError: Cannot read properties of nu
 This error relates to the age verification modal and only appears once the cookie is in place. 
 Updated - I have removed this error by checking if the cookie is present and if so the code will exit. 12.08.2024
 
-The Bootsrap Modals are still causing a few issues on the index page
+The Bootstrap Modals are still causing a few issues on the index page, from the Bootstrap css. 
 ![image](https://github.com/user-attachments/assets/ba7270b2-3a56-48aa-8e8f-dd6e17f565ab)
+
+You can see in the Console log a quote from Douglas Adams Hitchhikers series, I added this to check Javascript was working in an early test period and have left it in as an easter egg.
 
 # Validator Testing
 
@@ -241,6 +247,7 @@ Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/
 * Google Sheets - Data collection & creation
 * Trello - Project Assessment Criteria Tracker
 * AllAuth
+* Am I Responsive https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev
 
 ## Django Requirements
 
