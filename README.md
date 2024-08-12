@@ -56,7 +56,7 @@ https://github.com/users/SamuelParkerTech/projects/8
 
 # Live Deployment
 
-
+Live Website - https://beereview-856687d00272.herokuapp.com/
 
 # Design 
 
@@ -229,7 +229,11 @@ In the deploy tab, scroll down and deploy MAIN Branch \
 
 I would like to add the functionality in future for the main page to be a carousel rather than a full page scroll. This would simplify the view and utilise less screen space. \
 I would also like to make the review form accordion be closed on page load, and open when 'leave a review' or 'edit' buttons are clicked. 
-In future efforts I would get the rating to load correctly when the edit button is used. (See known bugs).
+In future efforts I would get the rating to load correctly when the edit button is used. (See known bugs).]
+
+For a future functionality I would also like to add a user area, which would display previous reviews the user had left and a checkbox to tick off beers tried at the festival. If they have left a review it should automatically tick off a beer, likewise if they tick off a beer it should prompt them to leave a review.
+![Wireframes FF User Area](https://github.com/user-attachments/assets/33b18c8b-0847-4f37-94c9-841549911dd9)
+
 
 # Credits
 
