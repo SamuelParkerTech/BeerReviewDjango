@@ -104,7 +104,10 @@ I also expanded the listings in order to match my ERD tables. The design of whic
 
 # Features
 
+# Age Verification
 The main welcome page features a challenge ID age modal, if this is clicked no it redirects to google. It saves a cookie and will not display again for 30 days. 
+![image](https://github.com/user-attachments/assets/27bb3219-6b35-4fdb-8aa3-a0d82f71621c)
+
 
 ## Sign In Page
 
@@ -134,6 +137,19 @@ For users authentication I have used All Auth - https://docs.allauth.org/en/late
 # Validator Testing
 
 # Deployment Via Heroku
+
+First make sure the Debug is set to false
+![image](https://github.com/user-attachments/assets/e367bb35-3372-4c39-8672-5544cad9e9d8)
+
+Connect your Github to your Heroku 
+![image](https://github.com/user-attachments/assets/d8a7aed2-8c8e-4df5-92ce-286396be909f)
+
+Make sure VARS are set correctly. 
+![image](https://github.com/user-attachments/assets/cd552e8e-2fc9-4929-8f65-912860ec5c69)
+
+In the deploy tab, scroll down and deploy MAIN Branch
+![image](https://github.com/user-attachments/assets/20234481-4a8a-44b7-9070-69b5bb1dd0c4)
+
 
 # Future Features
 
