@@ -1,5 +1,6 @@
 
-![SPMT Logo 1](https://github.com/user-attachments/assets/0319c37c-73f4-4b60-a55e-607e765b3a65)
+![image](https://github.com/user-attachments/assets/62648137-b4b3-4a68-b282-a46e6d4732ba)
+# The Carewfest Beer and Review Site
 
 ## Contents
 - [About](#about)
