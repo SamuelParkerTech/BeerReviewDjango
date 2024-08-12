@@ -3,15 +3,15 @@
 // Function to get a cookie by name
 function getCookie(name) {
     let cookieArr = document.cookie.split(";");
-    
-    for(let i = 0; i < cookieArr.length; i++) {
+
+    for (let i = 0; i < cookieArr.length; i++) {
         let cookiePair = cookieArr[i].split("=");
-        
-        if(name == cookiePair[0].trim()) {
+
+        if (name == cookiePair[0].trim()) {
             return decodeURIComponent(cookiePair[1]);
         }
     }
-    
+
     return null;
 }
 
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// Javascript to manipulate edit posts
+// Javascript to edit reviews
 
 document.addEventListener('DOMContentLoaded', () => {
     const editButtons = document.getElementsByClassName('btn-edit');
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             reviewText.value = reviewContent;
             reviewForm.querySelector('input[name="review_title"]').value = reviewTitle;
             reviewForm.querySelector('textarea[name="review_content"]').value = reviewContent;
-            
+
             const ratingInput = reviewForm.querySelector('input[name="rating"]');
             if (ratingInput) {
                 ratingInput.value = reviewRating;
@@ -70,6 +70,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// Javascript to Delete reviews
+
+document.addEventListener('DOMContentLoaded', () => {
+    const deleteModal = new bootstrap.Modal(document.getElementById("deleteModal"));
+    const deleteButtons = document.getElementsByClassName("btn-delete");
+    const deleteConfirm = document.getElementById("deleteConfirm");
+
+for (let button of deleteButtons) {
+    button.addEventListener("click", (e) => {
+      let reviewId = e.target.getAttribute("data-comment-id");
+      deleteConfirm.href = `delete_review/${reviewId}`;
+      deleteModal.show();
+    });
+  }
+})
 
 // Easter Egg Quote
 console.log(" 'Six pints of bitter,' said Ford Prefect, 'and quickly please, the world's about to end.' - Douglas Adams HHGTTG");
