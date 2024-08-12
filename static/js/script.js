@@ -58,10 +58,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
             reviewText.value = reviewContent;
             reviewForm.querySelector('input[name="review_title"]').value = reviewTitle;
-            reviewForm.querySelector('input[name="rating"]').value = reviewRating;
+            reviewForm.querySelector('textarea[name="review_content"]').value = reviewContent;
+            
+            const ratingInput = reviewForm.querySelector('input[name="rating"]');
+            if (ratingInput) {
+                ratingInput.value = reviewRating;
+            }
             submitButton.innerText = 'Update';
-
-            reviewForm.setAttribute('action', `/edit_review/${commentId}/`);
+            // if this is set to commentId I get a NEW review. if it is set to reviewId you get a url error when posting. 
+            reviewForm.setAttribute('action', `edit_review/${reviewId}`);
         });
     }
 });

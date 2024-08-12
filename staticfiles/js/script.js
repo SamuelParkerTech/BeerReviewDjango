@@ -41,6 +41,36 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Javascript to manipulate edit posts
+
+document.addEventListener('DOMContentLoaded', () => {
+    const editButtons = document.getElementsByClassName('btn-edit');
+    const reviewText = document.getElementById('id_review_content');
+    const reviewForm = document.getElementById('reviewForm');
+    const submitButton = document.getElementById('submitButton');
+
+    for (let button of editButtons) {
+        button.addEventListener('click', (e) => {
+            const reviewId = e.target.getAttribute('data-comment-id');
+            const reviewTitle = e.target.closest('.card').querySelector('li:first-child').innerText.split(': ')[1];
+            const reviewContent = e.target.closest('.card').querySelector('li:nth-child(2)').innerText.split(': ')[1];
+            const reviewRating = e.target.closest('.card').querySelector('li:nth-child(4)').innerText.split(' / out of 5')[0].trim();
+
+            reviewText.value = reviewContent;
+            reviewForm.querySelector('input[name="review_title"]').value = reviewTitle;
+            reviewForm.querySelector('textarea[name="review_content"]').value = reviewContent;
+            
+            const ratingInput = reviewForm.querySelector('input[name="rating"]');
+            if (ratingInput) {
+                ratingInput.value = reviewRating;
+            }
+            submitButton.innerText = 'Update';
+
+            reviewForm.setAttribute('action', `/edit_review/${reviewId}/`);
+        });
+    }
+});
+
 // Easter Egg Quote
 console.log(" 'Six pints of bitter,' said Ford Prefect, 'and quickly please, the world's about to end.' - Douglas Adams HHGTTG");
 

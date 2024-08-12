@@ -18,7 +18,7 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><strong>Notes: </strong>{{ beer.notes }}</li>
                     <li class="list-group-item"><strong>ABV: </strong>{{ beer.abv }}</li>
-                    <li class="list-group-item"><strong>Rating: </strong>{Filled from Database Model}</li>
+                    <li class="list-group-item"><strong>Rating: </strong>{{ average_rating|floatformat:1 }} / 5</li>
                 </ul>
                 <a href="#reviewform" class="btn btn-primary">Leave a review!</a>
             </div>
@@ -65,7 +65,7 @@
                     Review Form
                 </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     {% if user.is_authenticated %}
