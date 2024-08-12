@@ -132,14 +132,14 @@ Displays all beers, key details and the average review score. Each card is a lin
 ![image](https://github.com/user-attachments/assets/c5aa1e70-c1f7-41c5-b92d-596348ad9efa)
 
 # Beer Details Page & Reviews
-More details beer information, and separate review cards are displayed. A review form is at the bottom.
+More details beer information, and separate review cards are displayed. A review form is at the bottom. \
 
 ![image](https://github.com/user-attachments/assets/402c3e6c-6d7b-4a59-8d14-99b2e2103f94)
 
-The review form generates a score with a dropdown menu so figures outside of 1 - 5 cannot be added (When this was not a dropdown you would receive an error if a number higher than 5 was entered but it was not a good user experience).
+The review form generates a score with a dropdown menu so figures outside of 1 - 5 cannot be added (When this was not a dropdown you would receive an error if a number higher than 5 was entered but it was not a good user experience). \
 ![image](https://github.com/user-attachments/assets/ff7b7e43-0f2b-4391-ae0b-e322ce648510)
 
-On submit, edit and delete you receive a message confirming the action taken. Before deletion you are asked if you wish to confirm deletion by pop up modal. (Similar to the Age Verifcation).
+On submit, edit and delete you receive a message confirming the action taken. Before deletion you are asked if you wish to confirm deletion by pop up modal. (Similar to the Age Verifcation). \
 ![image](https://github.com/user-attachments/assets/14f95eef-e68b-45d5-9e03-cbf5b918d432)
 ![image](https://github.com/user-attachments/assets/b30f88aa-985f-4d75-a2ed-87eb021ea944)
 ![image](https://github.com/user-attachments/assets/fa6c9751-1908-4e54-a357-56173a2ac043)
