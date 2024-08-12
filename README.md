@@ -36,11 +36,26 @@ The target audience for this website is largely attendees of the festival who we
 
 # Agile
 
-# Project Board
+For the Agile process I utilised the Github project board and user stories. Detailing the production process and highlighting issues when they arose. 
+
+![image](https://github.com/user-attachments/assets/368d3cab-91c4-4d83-8a47-f2592a0db5eb)
+
+New user stories have been added as the project processed and based on user feedback during the final testing phase. 
+
+A MOSCOW framework has been utilised. 
+
+Mo: Full Beer Details, CRUD functionality.(Leave reviews, edit reviews, delete reviews)
+S: Ratings that are shown on all pages and averaged. 
+C: Code and style revisement. Future features such as Carousel view, ratings convered to star ratings. 
+oW: Ability to add new beers as a user. This a specific website featuring specific beers at the festival, such a feature is thus not required. However, in future the site could be adapted for other beer festivals or personal reasons when having this ability would be beneficial. 
+
+## Project Board
 
 https://github.com/users/SamuelParkerTech/projects/8
 
 # Live Deployment
+
+
 
 # Design 
 
@@ -91,6 +106,8 @@ I have chosen a hero image of the exterior of the pub which will form the main b
 # ERD Designs
 For the ERD design I have used MIRO to create these. 
 
+![image](https://github.com/user-attachments/assets/b2bf4dd6-06e0-4a6b-8848-cdc0b728d64f)
+
 Live link to page: https://miro.com/welcomeonboard/SlV6RzNtRGxOU2JkRXRXVVQ2cXRXZHVBa0VrMnNiRlAweGdGUE5Qa3N1NEVLVWVVRGZYOXVZVExFaVg0RW9tU3wzNDU4NzY0NTg3NDg4NjQwODQwfDI=?share_link_id=241379904065
 
 # Database
@@ -108,6 +125,24 @@ I also expanded the listings in order to match my ERD tables. The design of whic
 The main welcome page features a challenge ID age modal, if this is clicked no it redirects to google. It saves a cookie and will not display again for 30 days. 
 ![image](https://github.com/user-attachments/assets/27bb3219-6b35-4fdb-8aa3-a0d82f71621c)
 
+# Main Page
+Displays all beers, key details and the average review score. Each card is a link to the main beer page. These are highlighted when the mouse is moved over to indicate a link.
+
+![image](https://github.com/user-attachments/assets/c5aa1e70-c1f7-41c5-b92d-596348ad9efa)
+
+# Beer Details Page & Reviews
+More details beer information, and separate review cards are displayed. A review form is at the bottom.
+
+![image](https://github.com/user-attachments/assets/402c3e6c-6d7b-4a59-8d14-99b2e2103f94)
+
+The review form generates a score with a dropdown menu so figures outside of 1 - 5 cannot be added (When this was not a dropdown you would receive an error if a number higher than 5 was entered but it was not a good user experience).
+![image](https://github.com/user-attachments/assets/ff7b7e43-0f2b-4391-ae0b-e322ce648510)
+
+On submit, edit and delete you receive a message confirming the action taken. Before deletion you are asked if you wish to confirm deletion by pop up modal. (Similar to the Age Verifcation).
+![image](https://github.com/user-attachments/assets/14f95eef-e68b-45d5-9e03-cbf5b918d432)
+![image](https://github.com/user-attachments/assets/b30f88aa-985f-4d75-a2ed-87eb021ea944)
+![image](https://github.com/user-attachments/assets/fa6c9751-1908-4e54-a357-56173a2ac043)
+![image](https://github.com/user-attachments/assets/ab56fabb-2506-4b66-aea5-db509f311a0e)
 
 ## Sign In Page
 
@@ -132,6 +167,7 @@ On log out they are asked if they wish to confirm logout.
 ![image](https://github.com/user-attachments/assets/0a99995b-a892-4dd5-b52b-47497a132435)
 
 For users authentication I have used All Auth - https://docs.allauth.org/en/latest/installation/quickstart.html
+
 # Testing
 
 # Validator Testing
@@ -152,6 +188,8 @@ In the deploy tab, scroll down and deploy MAIN Branch
 
 
 # Future Features
+
+I would like to add the functionality in future for the main page to be a carousel rather than a full page scroll. This would simplify the view and utilise less screen space. 
 
 # Credits
 
@@ -196,7 +234,7 @@ Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/
 
 # Further Thoughts
 
-
+This project was a good learning experience. I had many issues which delayed me for a day or so while I worked out what the issues were. Sometimes these were as simple as typo, a misplaced comma, indent or simple logic not working. Many of these issues were because of a lack of experience. However, each issue helped me learn more about Django and how it works. Thus some problems once resolved, helped resolve other issues. For example, removing a column from my data table gave me the knowledge to add a column to my data table when the opposite issue arose. 
 
 
 
