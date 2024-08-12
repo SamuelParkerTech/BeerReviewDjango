@@ -171,7 +171,35 @@ For users authentication I have used All Auth - https://docs.allauth.org/en/late
 
 # Testing
 
+Testing was done both manually and using Validators (see next section).
+
+## Known Bugs
+
+There is currently a known issue where when editing the rating is removed rather than copied across in the dropdown. This should be filled in when you click edit based on the existing rating given. 
+![image](https://github.com/user-attachments/assets/5b821dfe-4788-468f-bc8b-fca06ef1bf4b)
+The Javascript is collecting the rating correctly but I have not been able to get it to set it correctly as of 12.08.2024. I have checked this by logging it to the console.
+![image](https://github.com/user-attachments/assets/ddc2ebfa-f94c-4fdb-bedb-c762e48cb742)
+If it is left blank, the updated review will not post and the user will get an error message "Review not updated" if they click update. 
+
+On some pages you get a Javascript error TypeError: Cannot read properties of null (reading 'addEventListener')
+    at HTMLDocument.<anonymous> (script.js:34:41).
+This error relates to the age verification modal and only appears once the cookie is in place. 
+Updated - I have removed this error by checking if the cookie is present and if so the code will exit. 12.08.2024
+
+The Bootsrap Modals are still causing a few issues on the index page
+![image](https://github.com/user-attachments/assets/ba7270b2-3a56-48aa-8e8f-dd6e17f565ab)
+
 # Validator Testing
+
+I tested the HTML using W3 Validator using the URL checker function. https://validator.w3.org/
+It does not like the google fonts in the head element, but this is how Google suggests adding them.
+![image](https://github.com/user-attachments/assets/d13979c3-ad81-4cb0-acec-10dba9cd88a9)
+
+CSS Validator testing used the jigsaw validator: https://jigsaw.w3.org/css-validator/ and posted no issues. 
+![image](https://github.com/user-attachments/assets/23850db4-ef9c-460e-b265-dc8631ad85fa)
+
+Javascript was testing using JS Hint: https://jshint.com/
+The only errors are warnings about the use of ES6. ![image](https://github.com/user-attachments/assets/995f59b0-4094-477d-a971-e38cbdbc20a9)
 
 # Deployment Via Heroku
 
