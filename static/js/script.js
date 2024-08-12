@@ -60,9 +60,12 @@ document.addEventListener('DOMContentLoaded', () => {
             reviewForm.querySelector('input[name="review_title"]').value = reviewTitle;
             reviewForm.querySelector('textarea[name="review_content"]').value = reviewContent;
 
-            const ratingInput = reviewForm.querySelector('input[name="rating"]');
-            if (ratingInput) {
-                ratingInput.value = reviewRating;
+            const ratingSelect = reviewForm.querySelector('select[name="rating"]');
+            if (ratingSelect) {
+                console.log('Setting rating select value:', reviewRating);
+                ratingSelect.value = reviewRating;
+            } else {
+                console.error('Rating select not found');
             }
             submitButton.innerText = 'Update';
             reviewForm.setAttribute('action', `edit_review/${reviewId}`);
