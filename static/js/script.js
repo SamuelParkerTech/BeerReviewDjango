@@ -73,6 +73,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Javascript to Delete reviews
 
+document.addEventListener('DOMContentLoaded', () => {
+    const deleteModal = new bootstrap.Modal(document.getElementById("deleteModal"));
+    const deleteButtons = document.getElementsByClassName("btn-delete");
+    const deleteConfirm = document.getElementById("deleteConfirm");
+
+for (let button of deleteButtons) {
+    button.addEventListener("click", (e) => {
+      let reviewId = e.target.getAttribute("data-comment-id");
+      deleteConfirm.href = `delete_review/${reviewId}`;
+      deleteModal.show();
+    });
+  }
+})
+
 // Easter Egg Quote
 console.log(" 'Six pints of bitter,' said Ford Prefect, 'and quickly please, the world's about to end.' - Douglas Adams HHGTTG");
 
