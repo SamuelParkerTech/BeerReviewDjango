@@ -44,6 +44,3 @@ class Review(models.Model):
         ordering = ["-created_on"]
     def __str__(self):
         return f"Review of {self.beer_name} by {self.poster}"
-    """
-    function updates review score
-    """

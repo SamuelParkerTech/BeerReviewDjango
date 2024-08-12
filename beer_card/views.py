@@ -11,6 +11,12 @@ class BeerList(generic.ListView):
     queryset = Beer.objects.all()
     template_name = "index.html"
 
+    def get_queryset(self):
+        # Annotate each beer with its average rating
+        return Beer.objects.filter(status=1).annotate(
+            average_rating=Avg('reviews__rating')
+            ).order_by('beer_name')
+        
 
 def beer_detail(request, slug):  
     queryset = Beer.objects.filter(status=1)
