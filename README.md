@@ -207,32 +207,38 @@ CSS Validator testing used the jigsaw validator: https://jigsaw.w3.org/css-valid
 Javascript was testing using JS Hint: https://jshint.com/
 The only errors are warnings about the use of ES6. ![image](https://github.com/user-attachments/assets/995f59b0-4094-477d-a971-e38cbdbc20a9)
 
+Accessible Web testing currently leverages a score of 93/100
+![image](https://github.com/user-attachments/assets/fd304eac-9e1d-4f82-ad09-1eb8163b8cb7)
+
 # Deployment Via Heroku
 
-First make sure the Debug is set to false
+First make sure the Debug is set to false \
 ![image](https://github.com/user-attachments/assets/e367bb35-3372-4c39-8672-5544cad9e9d8)
 
-Connect your Github to your Heroku 
+Connect your Github to your Heroku \
 ![image](https://github.com/user-attachments/assets/d8a7aed2-8c8e-4df5-92ce-286396be909f)
 
-Make sure VARS are set correctly. 
+Make sure VARS are set correctly. \
 ![image](https://github.com/user-attachments/assets/cd552e8e-2fc9-4929-8f65-912860ec5c69)
 
-In the deploy tab, scroll down and deploy MAIN Branch
+In the deploy tab, scroll down and deploy MAIN Branch \
 ![image](https://github.com/user-attachments/assets/20234481-4a8a-44b7-9070-69b5bb1dd0c4)
 
 
 # Future Features
 
-I would like to add the functionality in future for the main page to be a carousel rather than a full page scroll. This would simplify the view and utilise less screen space. 
+I would like to add the functionality in future for the main page to be a carousel rather than a full page scroll. This would simplify the view and utilise less screen space. \
+I would also like to make the review form accordion be closed on page load, and open when 'leave a review' or 'edit' buttons are clicked. 
+In future efforts I would get the rating to load correctly when the edit button is used. (See known bugs).
 
 # Credits
 
 # Content Credit
 
-Carew Pub Images courtesy of Out and Abouts Images https://www.outandaboutimages.co.uk/ \
-ChatGPT - Content Creation. Descriptions of some beers was tweaked with ChatGPT. \
-Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/ 
+* Carew Pub Images courtesy of Out and Abouts Images https://www.outandaboutimages.co.uk/ \
+* ChatGPT - Content Creation. Descriptions of some beers was tweaked with ChatGPT and some reviews were generated in this way. \
+* Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/
+* FontAwesome - Social Icons https://fontawesome.com/
 
 # Technology
 
@@ -240,12 +246,11 @@ Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/
 * Gitpod - Code Editor
 * Django - Python Framework
 * BootStrap - CSS Framework
-* FontAwesome - Social Icons
-* Google Fonts - Oswald Font
-* Miro - ERD Creation board
-* Coolors.io - Colour pallette/tone helper
-* Google Sheets - Data collection & creation
-* Trello - Project Assessment Criteria Tracker
+* Google Fonts - Oswald Font https://fonts.google.com/specimen/Oswald
+* Miro - ERD Creation board https://miro.com/
+* Coolors.co - Colour pallette/tone helper https://coolors.co/
+* Google Sheets - Data collection & creation https://docs.google.com/spreadsheets/create
+* Trello - Project Assessment Criteria Tracker https://trello.com/b/Gxg1ULD2/final-project-criteria
 * AllAuth
 * Am I Responsive https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev
 
