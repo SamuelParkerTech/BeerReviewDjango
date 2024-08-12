@@ -2,56 +2,59 @@
 {% load static %}
 <!-- Content from Base.HTML after this block-->
 
-  <!-- Age Challenge Modal -->
-  <div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">Age Check Required</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          You must be 18 or over to view this site - are you over 18? (Clicking no will take you to Google)
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" id="noButton">No</button>
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="yesButton">Yes</button>
-        </div>
+<!-- Age Challenge Modal -->
+<div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Age Check Required</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        You must be 18 or over to view this site - are you over 18? (Clicking no will take you to Google)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="noButton">No</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="yesButton">Yes</button>
       </div>
     </div>
   </div>
+</div>
 
 <!-- container for cards-->
 <div class="container my-5" id="beercards">
-    <div class="row justify-content-center">
-        <!-- Code to be iterated to create numerous cards from database -->
-        {% for beer in beer_list %}
-        <div class="col-md-4 col-12 mb-4 link_highlight">
-            <a href="{% url 'beer_detail' beer.slug %}" class="card-link">
-                <div class="card border-warning">
-                    {% if "placeholder" in beer.image.url %}
-                    <img src="{% static 'images/pintglass.jpg' %}" class="card-img-top"
-                        alt="Image of Pint Glass with Beer (placeholder image)">
-                    {% else %}
-                    <img src="{{ beer.image }}" class="card-img-top"
-                        alt="Image of Beer Pump for Beer {{ beer.beer_name }}">
-                    <div class="card-body">
-                        {% endif %}
-                        <h5 class="card-title">{{ beer.beer_name }}</h5>
-                        <p class="card-text">{{ beer.brewery }}</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Notes: </strong>{{ beer.notes }}</li>
-                        <li class="list-group-item"><strong>ABV: </strong>{{ beer.abv }}</li>
-                        <li class="list-group-item"><strong>Rating: </strong>{Filled from Database Model}</li>
-                    </ul>
-                </div>
-            </a>
+  <div class="row justify-content-center">
+    <!-- Code to be iterated to create numerous cards from database -->
+    {% for beer in beer_list %}
+    <div class="col-md-4 col-12 mb-4 link_highlight">
+      <a href="{% url 'beer_detail' beer.slug %}" class="card-link">
+        <div class="card border-warning">
+          {% if "placeholder" in beer.image.url %}
+          <img src="{% static 'images/pintglass.jpg' %}" class="card-img-top"
+            alt="Image of Pint Glass with Beer (placeholder image)">
+          {% else %}
+          <img src="{{ beer.image }}" class="card-img-top" alt="Image of Beer Pump for Beer {{ beer.beer_name }}">
+          <div class="card-body">
+            {% endif %}
+            <h5 class="card-title">{{ beer.beer_name }}</h5>
+            <p class="card-text">{{ beer.brewery }}</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Notes: </strong>{{ beer.notes }}</li>
+            <li class="list-group-item"><strong>ABV: </strong>{{ beer.abv }}</li>
+            <li class="list-group-item"><strong>Rating: </strong>{% if beer.average_rating %}
+              {{ beer.average_rating|floatformat:1 }} / 5
+              {% else %}
+              No ratings yet
+              {% endif %}</li>
+          </ul>
         </div>
-        <!-- End of iterated code-->
-        {% endfor %}
+      </a>
     </div>
+    <!-- End of iterated code-->
+    {% endfor %}
+  </div>
 </div>
 
 {% endblock content %}

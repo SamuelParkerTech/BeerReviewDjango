@@ -18,7 +18,7 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><strong>Notes: </strong>{{ beer.notes }}</li>
                     <li class="list-group-item"><strong>ABV: </strong>{{ beer.abv }}</li>
-                    <li class="list-group-item"><strong>Rating: </strong>{Filled from Database Model}</li>
+                    <li class="list-group-item"><strong>Rating: </strong>{{ beer.average_rating|floatformat:1 }} / 5</li>
                 </ul>
                 <a href="#reviewform" class="btn btn-primary">Leave a review!</a>
             </div>
@@ -46,7 +46,7 @@
                 <!-- view edit / delete buttons IF user is logged in and matches comment -->
                 {% if user.is_authenticated and review.poster == user %}
                 <button type="button" class="btn btn-secondary btn-edit" data-comment-id="{{ review.id }}">Edit</button>
-                <button type="button" class="btn btn-danger" data-comment-id="{{ review.id }}">Delete</button>
+                <button type="button" class="btn btn-danger btn-delete" data-comment-id="{{ review.id }}">Delete</button>
                 {% endif %}
             </div>
         </div>
@@ -65,7 +65,7 @@
                     Review Form
                 </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     {% if user.is_authenticated %}
@@ -81,5 +81,30 @@
             </div>
         </div>
     </div>
+</div>
+
+  <!-- Delete Confirmation Modal -->
+  <div class="modal fade" id="deleteModal" tabindex="-1"
+  aria-labelledby="deleteModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"
+          id="deleteModalLabel">Delete Review?</h5>
+        <button type="button" class="btn-close"
+          data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to delete your Review?
+        This action cannot be undone.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"
+          data-bs-dismiss="modal">Close</button>
+        <a id="deleteConfirm" href="#" class="btn
+          btn-danger">Delete</a>
+      </div>
+    </div>
+  </div>
 </div>
 {% endblock content %}
