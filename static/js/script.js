@@ -25,10 +25,15 @@ function setCookie(name, value, days) {
 
 // Check if the 'ageVerified' cookie exists
 document.addEventListener('DOMContentLoaded', function () {
-    if (!getCookie('ageVerified')) {
-        var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
-        myModal.show();
+   
+    if (getCookie('ageVerified')) {
+        // If the ageVerified cookie exists, do nothing and exit the script
+        return;
     }
+
+    // If the cookie does not exist, proceed with showing the modal
+    var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
+    myModal.show();
 
     // Set cookie when the 'Yes' button is clicked
     document.getElementById('yesButton').addEventListener('click', function () {
@@ -87,7 +92,7 @@ for (let button of deleteButtons) {
       deleteModal.show();
     });
   }
-})
+});
 
 // Easter Egg Quote
 console.log(" 'Six pints of bitter,' said Ford Prefect, 'and quickly please, the world's about to end.' - Douglas Adams HHGTTG");
