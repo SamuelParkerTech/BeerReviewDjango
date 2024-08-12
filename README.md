@@ -155,15 +155,15 @@ On submit, edit and delete you receive a message confirming the action taken. Be
 
 ## Logged In/Out
 The user is displayed at the top right with a message "you are logged in as ..." as well as a link to log out. 
-If no user is loggged in they are shown options Register, Login and "You are not logged in"
+If no user is loggged in they are shown options Register, Login and "You are not logged in" \
 
 ![image](https://github.com/user-attachments/assets/11487944-c6ca-41de-947b-3d36d4663a76)
 ![image](https://github.com/user-attachments/assets/3727d098-1995-49fc-9f1f-e06b7e13064d)
 
-On log out they are asked if they wish to confirm logout. 
+On log out they are asked if they wish to confirm logout. \
 ![image](https://github.com/user-attachments/assets/c427a0c2-0436-4a03-931e-72d2b0b45de4)
 
-I checked responsiveness on other sites throughout the development process, I also used Am I Responsive for this. https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev
+I checked responsiveness on other sites throughout the development process, I also used Am I Responsive for this. https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev \
 
 ![image](https://github.com/user-attachments/assets/23734750-7b54-458f-a04f-0da8b0667ac2)
 
