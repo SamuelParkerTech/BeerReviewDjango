@@ -43,7 +43,8 @@
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><strong>Notes: </strong>{{ beer.notes }}</li>
             <li class="list-group-item"><strong>ABV: </strong>{{ beer.abv }}</li>
-            <li class="list-group-item"><strong>Rating: </strong>{% if beer.average_rating %}
+            <li class="list-group-item"><strong>Rating: </strong>
+              {% if beer.average_rating %}
               {{ beer.average_rating|floatformat:1 }} / 5
               {% else %}
               No ratings yet
