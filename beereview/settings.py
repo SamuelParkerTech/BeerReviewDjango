@@ -29,7 +29,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['.codeinstitute-ide.net', '.herokuapp.com']
 
@@ -49,8 +49,10 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'cloudinary_storage',
     'cloudinary',
-    'django_summernote',
     'beer_card',
+    'about',
+    'django_summernote',
+
 ]
 
 SITE_ID = 1
