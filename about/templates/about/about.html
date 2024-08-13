@@ -1,0 +1,21 @@
+{% extends 'base.html' %} {% block content %}
+{% load static %}
+<!-- Content from Base.HTML after this block-->
+
+<!-- container for card-->
+<div class="container" id="aboutcarew">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-12 mb-4">
+            <div class="card">
+                <img src="https://res.cloudinary.com/dzkbptwr7/image/upload/v1723543153/gardencarewpub_tt3lv4.jpg" alt="Pub Garden during Beer Festival">
+                <div class="card-body">
+                    <h5 class="card-title">{{ about.title }}</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">{{ about.about_pub }}</li>
+                    <li class="list-group-item">{{ about.about_site }}</li>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

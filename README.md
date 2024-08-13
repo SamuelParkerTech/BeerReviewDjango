@@ -56,7 +56,7 @@ https://github.com/users/SamuelParkerTech/projects/8
 
 # Live Deployment
 
-
+Live Website - https://beereview-856687d00272.herokuapp.com/
 
 # Design 
 
@@ -132,14 +132,14 @@ Displays all beers, key details and the average review score. Each card is a lin
 ![image](https://github.com/user-attachments/assets/c5aa1e70-c1f7-41c5-b92d-596348ad9efa)
 
 # Beer Details Page & Reviews
-More details beer information, and separate review cards are displayed. A review form is at the bottom.
+More details beer information, and separate review cards are displayed. A review form is at the bottom. \
 
 ![image](https://github.com/user-attachments/assets/402c3e6c-6d7b-4a59-8d14-99b2e2103f94)
 
-The review form generates a score with a dropdown menu so figures outside of 1 - 5 cannot be added (When this was not a dropdown you would receive an error if a number higher than 5 was entered but it was not a good user experience).
+The review form generates a score with a dropdown menu so figures outside of 1 - 5 cannot be added (When this was not a dropdown you would receive an error if a number higher than 5 was entered but it was not a good user experience). \
 ![image](https://github.com/user-attachments/assets/ff7b7e43-0f2b-4391-ae0b-e322ce648510)
 
-On submit, edit and delete you receive a message confirming the action taken. Before deletion you are asked if you wish to confirm deletion by pop up modal. (Similar to the Age Verifcation).
+On submit, edit and delete you receive a message confirming the action taken. Before deletion you are asked if you wish to confirm deletion by pop up modal. (Similar to the Age Verifcation). \
 ![image](https://github.com/user-attachments/assets/14f95eef-e68b-45d5-9e03-cbf5b918d432)
 ![image](https://github.com/user-attachments/assets/b30f88aa-985f-4d75-a2ed-87eb021ea944)
 ![image](https://github.com/user-attachments/assets/fa6c9751-1908-4e54-a357-56173a2ac043)
@@ -155,15 +155,15 @@ On submit, edit and delete you receive a message confirming the action taken. Be
 
 ## Logged In/Out
 The user is displayed at the top right with a message "you are logged in as ..." as well as a link to log out. 
-If no user is loggged in they are shown options Register, Login and "You are not logged in"
+If no user is loggged in they are shown options Register, Login and "You are not logged in" \
 
 ![image](https://github.com/user-attachments/assets/11487944-c6ca-41de-947b-3d36d4663a76)
 ![image](https://github.com/user-attachments/assets/3727d098-1995-49fc-9f1f-e06b7e13064d)
 
-On log out they are asked if they wish to confirm logout. 
+On log out they are asked if they wish to confirm logout. \
 ![image](https://github.com/user-attachments/assets/c427a0c2-0436-4a03-931e-72d2b0b45de4)
 
-I checked responsiveness on other sites throughout the development process, I also used Am I Responsive for this. https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev
+I checked responsiveness on other sites throughout the development process, I also used Am I Responsive for this. https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev \
 
 ![image](https://github.com/user-attachments/assets/23734750-7b54-458f-a04f-0da8b0667ac2)
 
@@ -229,7 +229,11 @@ In the deploy tab, scroll down and deploy MAIN Branch \
 
 I would like to add the functionality in future for the main page to be a carousel rather than a full page scroll. This would simplify the view and utilise less screen space. \
 I would also like to make the review form accordion be closed on page load, and open when 'leave a review' or 'edit' buttons are clicked. 
-In future efforts I would get the rating to load correctly when the edit button is used. (See known bugs).
+In future efforts I would get the rating to load correctly when the edit button is used. (See known bugs).]
+
+For a future functionality I would also like to add a user area, which would display previous reviews the user had left and a checkbox to tick off beers tried at the festival. If they have left a review it should automatically tick off a beer, likewise if they tick off a beer it should prompt them to leave a review.
+![Wireframes FF User Area](https://github.com/user-attachments/assets/33b18c8b-0847-4f37-94c9-841549911dd9)
+
 
 # Credits
 
