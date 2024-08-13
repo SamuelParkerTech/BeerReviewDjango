@@ -33,7 +33,7 @@ def beer_detail(request, slug):
             review.review_title = review_form.cleaned_data.get('review_title')
             review.review_content = review_form.cleaned_data.get('review_content')
             review.rating = review_form.cleaned_data.get('rating')
-            review.beer_name = beer  # Explicitly associate the review with the beer
+            review.beer_name = beer  
             review.save()
             messages.add_message(
                 request, messages.SUCCESS,  'Review has been submitted'
