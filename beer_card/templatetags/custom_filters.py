@@ -14,7 +14,6 @@ def star_rating(value):
     stars = ('<i class="fa-solid fa-star"></i>' * full_stars) + \
             ('<i class="fa-solid fa-star-half"></i>' * half_star) + \
             ('<i class="fa-regular fa-star"></i>' * empty_stars)
-    
     return stars
 
 star_rating.is_safe = True  
