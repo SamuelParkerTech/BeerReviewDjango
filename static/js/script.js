@@ -1,4 +1,4 @@
-// JavaScript calls a Age Verification Modal
+// JavaScript calls Age Verification Modal
 
 // Function to get a cookie by name
 function getCookie(name) {
@@ -25,7 +25,7 @@ function setCookie(name, value, days) {
 
 // Check if the 'ageVerified' cookie exists
 document.addEventListener('DOMContentLoaded', function () {
-   
+
     if (getCookie('ageVerified')) {
         // If the ageVerified cookie exists, do nothing and exit the script
         return;
@@ -85,13 +85,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const deleteButtons = document.getElementsByClassName("btn-delete");
     const deleteConfirm = document.getElementById("deleteConfirm");
 
-for (let button of deleteButtons) {
-    button.addEventListener("click", (e) => {
-      let reviewId = e.target.getAttribute("data-comment-id");
-      deleteConfirm.href = `delete_review/${reviewId}`;
-      deleteModal.show();
-    });
-  }
+    for (let button of deleteButtons) {
+        button.addEventListener("click", (e) => {
+            let reviewId = e.target.getAttribute("data-comment-id");
+            deleteConfirm.href = `delete_review/${reviewId}`;
+            deleteModal.show();
+        });
+    }
 });
 
 // Easter Egg Quote
