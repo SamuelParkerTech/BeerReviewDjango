@@ -29,13 +29,12 @@
     crossorigin="anonymous"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="{% static 'css/style.css'%}">
-</head>
-<!-- Google Fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
-  rel="stylesheet">
+  <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
 
 </head>
 
@@ -77,20 +76,19 @@
     </div>
   </nav>
   <!-- displaying Django messages -->
-<div class="container djangomessage">
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
-      {% for message in messages %}
-      <div class="alert {{ message.tags }} alert-dismissible
+  <div class="container djangomessage">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        {% for message in messages %}
+        <div class="alert {{ message.tags }} alert-dismissible
         fade show" id="msg" role="alert">
-        {{ message | safe }}
-        <button type="button" class="btn-close"
-          data-bs-dismiss="alert" aria-label="Close"></button>
+          {{ message | safe }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
   </div>
-</div>
   <main class="flex-shrink-0 main-bg">
     <h1 id="title">CarewFest Beers & Reviews!</h1>
     {% block content %}
