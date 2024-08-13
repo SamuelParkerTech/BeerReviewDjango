@@ -15,6 +15,7 @@
 - [Features](#Features)
 - [Testing](#Testing)
 - [Validator Testing](#Validator-Testing)
+- [Accessibility](#Accessibility)
 - [Deployment via Heroku](#Deployment-Via-Heroku)
 - [Future Features](#Future-Features)
 - [Credits](#Credits)
@@ -207,8 +208,20 @@ CSS Validator testing used the jigsaw validator: https://jigsaw.w3.org/css-valid
 Javascript was testing using JS Hint: https://jshint.com/
 The only errors are warnings about the use of ES6. ![image](https://github.com/user-attachments/assets/995f59b0-4094-477d-a971-e38cbdbc20a9)
 
+# Accessibility
+
+
 Accessible Web testing currently leverages a score of 93/100
 ![image](https://github.com/user-attachments/assets/fd304eac-9e1d-4f82-ad09-1eb8163b8cb7)
+
+Lightouse Testing
+
+![image](https://github.com/user-attachments/assets/887e3c03-0121-4ddd-84ea-31b250dcf235)
+
+I score lowest on 'best practices' - this is because Cloudinary is sending cookies with the images. \
+![image](https://github.com/user-attachments/assets/3a3afc22-e9e3-48e1-9cf0-789e9a33c03c)
+![image](https://github.com/user-attachments/assets/96e0011b-60c2-48c6-87cd-75528f0a7055)
+
 
 # Deployment Via Heroku
 
