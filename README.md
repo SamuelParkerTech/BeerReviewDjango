@@ -1,5 +1,6 @@
 
-![image](https://github.com/user-attachments/assets/62648137-b4b3-4a68-b282-a46e6d4732ba)
+![image](https://github.com/user-attachments/assets/37e38df3-6140-4c02-bec2-e68f62a3c0ba)
+
 # The Carewfest Beer and Review Site
 
 ## Contents
@@ -77,13 +78,17 @@ The main page will host a selection of beers in bootstrap cards which are also l
 
 On the review page, further details on the beer will be displayed as well as the user rating again. If logged in users will be prompted to leave their own review, or log in to leave a review. The reviews will be displayed on this page underneath the further details, utlising more bootstrap cards to clearly display each separate review. I would like to display the score in a star format or a simple x/5 display. This display will be scrollable instead of a carousel format. The reviews will be split 3 to a row on large screens and 1/2 on smaller tablets & mobiles. Making sure that the remains responsive on all devices. It is possible that these review pages could be incorporated as pop ups if time allows but the main focus is on a working MVP at this time. 
 
+## About Page
+
+A brief description of the pub, festival and website. This was a later addition as I had time to add.
+
 ## Fonts, Colours & Hero Image
 
 I have selected font Oswald from Google Fonts as a clear and effective font. I've gone with a colour scheme of Orange & White matching the colours of the Beer Favicon seelected. 
-C6A15B \
+C6A15B \ 
 FFFFFF \
 000000 \
-Black will likely also be used. \
+Black will likely also be used. (Black has been used for text to increase contrast/visiblity) \
 ![image](https://github.com/user-attachments/assets/f3626b5f-ee8e-4479-8858-df968f2f53ba)
 
 I have chosen a hero image of the exterior of the pub which will form the main background of the page. Image provided by Paul Savage of Out and About Images. 
@@ -130,14 +135,15 @@ The main welcome page features a challenge ID age modal, if this is clicked no i
 # Main Page
 Displays all beers, key details and the average review score. Each card is a link to the main beer page. These are highlighted when the mouse is moved over to indicate a link.
 
-![image](https://github.com/user-attachments/assets/c5aa1e70-c1f7-41c5-b92d-596348ad9efa)
+![image](https://github.com/user-attachments/assets/a1bba15b-9451-40c9-844e-ef676bd2d5c4)
 
 # Beer Details Page & Reviews
 More details beer information, and separate review cards are displayed. A review form is at the bottom. \
 
-![image](https://github.com/user-attachments/assets/402c3e6c-6d7b-4a59-8d14-99b2e2103f94)
+![image](https://github.com/user-attachments/assets/0f97527c-8f1e-4645-8f0d-e53cd44e9dfe)
 
-The review form generates a score with a dropdown menu so figures outside of 1 - 5 cannot be added (When this was not a dropdown you would receive an error if a number higher than 5 was entered but it was not a good user experience). \
+The review form generates a score with a dropdown menu so figures outside of 1 - 5 cannot be added (When this was not a dropdown you would receive an error if a number higher than 5 was entered but it was not a good user experience). If you are not logged in you cannot leave a review \
+![image](https://github.com/user-attachments/assets/d08a21d5-6f42-475f-a74a-3ebc0c44646a)
 ![image](https://github.com/user-attachments/assets/ff7b7e43-0f2b-4391-ae0b-e322ce648510)
 
 On submit, edit and delete you receive a message confirming the action taken. Before deletion you are asked if you wish to confirm deletion by pop up modal. (Similar to the Age Verifcation). \
@@ -146,27 +152,34 @@ On submit, edit and delete you receive a message confirming the action taken. Be
 ![image](https://github.com/user-attachments/assets/fa6c9751-1908-4e54-a357-56173a2ac043)
 ![image](https://github.com/user-attachments/assets/ab56fabb-2506-4b66-aea5-db509f311a0e)
 
+## About Page
+
+![image](https://github.com/user-attachments/assets/5371abfe-2154-4101-a77f-9bef79a2ccd6)
+
 ## Sign In Page
 
-![image](https://github.com/user-attachments/assets/29eb5d1d-60ae-4840-a061-31358456e938)
+![image](https://github.com/user-attachments/assets/d1e02653-98a7-44c2-8c19-d770e0d05d16)
 
 ## Sign Up Page
 
-![image](https://github.com/user-attachments/assets/7de67ef1-b85d-4ba5-9b1c-98639011316c)
+![image](https://github.com/user-attachments/assets/46a8b0a9-871a-4581-bdee-18231e8ab17a)
 
 ## Logged In/Out
 The user is displayed at the top right with a message "you are logged in as ..." as well as a link to log out. 
 If no user is loggged in they are shown options Register, Login and "You are not logged in" \
 
-![image](https://github.com/user-attachments/assets/11487944-c6ca-41de-947b-3d36d4663a76)
-![image](https://github.com/user-attachments/assets/3727d098-1995-49fc-9f1f-e06b7e13064d)
+![image](https://github.com/user-attachments/assets/a9e59fae-daa9-4b65-98c9-199e5fc41187)
+![image](https://github.com/user-attachments/assets/47e66916-8a51-41b3-9c40-506a3403de38)
+
+Upon successful login a message is displayed. 
+
+![image](https://github.com/user-attachments/assets/8981c22b-6f80-416c-bcee-872717346443)
 
 On log out they are asked if they wish to confirm logout. \
 ![image](https://github.com/user-attachments/assets/c427a0c2-0436-4a03-931e-72d2b0b45de4)
 
 I checked responsiveness on other sites throughout the development process, I also used Am I Responsive for this. https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev \
-
-![image](https://github.com/user-attachments/assets/23734750-7b54-458f-a04f-0da8b0667ac2)
+![image](https://github.com/user-attachments/assets/c0613e0f-b907-4e38-87eb-c49e6e43ec19)
 
 ## Django / Admin page 
 
@@ -208,13 +221,17 @@ CSS Validator testing used the jigsaw validator: https://jigsaw.w3.org/css-valid
 Javascript was testing using JS Hint: https://jshint.com/
 The only errors are warnings about the use of ES6. ![image](https://github.com/user-attachments/assets/995f59b0-4094-477d-a971-e38cbdbc20a9)
 
+
+
 # Accessibility
+In checking contrast a lot of the text was failing/posting a warning in Chrome Dev tools, I changed most the text to black and it now scores highly in contrast. 
+![image](https://github.com/user-attachments/assets/9ec3664a-2cae-4882-a28a-09a5afbe694d)
 
 
 Accessible Web testing currently leverages a score of 93/100
 ![image](https://github.com/user-attachments/assets/fd304eac-9e1d-4f82-ad09-1eb8163b8cb7)
 
-Lightouse Testing
+## Lightouse Testing
 
 ![image](https://github.com/user-attachments/assets/887e3c03-0121-4ddd-84ea-31b250dcf235)
 
@@ -241,8 +258,8 @@ In the deploy tab, scroll down and deploy MAIN Branch \
 # Future Features
 
 I would like to add the functionality in future for the main page to be a carousel rather than a full page scroll. This would simplify the view and utilise less screen space. \
-I would also like to make the review form accordion be closed on page load, and open when 'leave a review' or 'edit' buttons are clicked. 
-In future efforts I would get the rating to load correctly when the edit button is used. (See known bugs).]
+I would also like to make the review form accordion be closed on page load, and open when 'leave a review' or 'edit' buttons are clicked. \
+In future efforts I would get the rating to load correctly when the edit button is used. (See known bugs). \
 
 For a future functionality I would also like to add a user area, which would display previous reviews the user had left and a checkbox to tick off beers tried at the festival. If they have left a review it should automatically tick off a beer, likewise if they tick off a beer it should prompt them to leave a review.
 ![Wireframes FF User Area](https://github.com/user-attachments/assets/33b18c8b-0847-4f37-94c9-841549911dd9)
