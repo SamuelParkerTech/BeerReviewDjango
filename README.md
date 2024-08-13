@@ -47,10 +47,10 @@ New user stories have been added as the project processed and based on user feed
 
 A MOSCOW framework has been utilised. 
 
-Mo: Full Beer Details, CRUD functionality.(Leave reviews, edit reviews, delete reviews)
-S: Ratings that are shown on all pages and averaged. 
-C: Code and style revisement. Future features such as Carousel view, ratings convered to star ratings. 
-oW: Ability to add new beers as a user. This a specific website featuring specific beers at the festival, such a feature is thus not required. However, in future the site could be adapted for other beer festivals or personal reasons when having this ability would be beneficial. 
+Mo: Full Beer Details, CRUD functionality.(Leave reviews, edit reviews, delete reviews) \
+S: Ratings that are shown on all pages and averaged.  \
+C: Code and style revisement. Future features such as Carousel view, ratings convered to star ratings. \
+oW: Ability to add new beers as a user. This a specific website featuring specific beers at the festival, such a feature is thus not required. However, in future the site could be adapted for other beer festivals or personal reasons when having this ability would be beneficial. \
 
 ## Project Board
 
