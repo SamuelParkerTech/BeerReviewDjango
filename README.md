@@ -212,8 +212,10 @@ You can see in the Console log a quote from Douglas Adams Hitchhikers series, I 
 # Validator Testing
 
 I tested the HTML using W3 Validator using the URL checker function. https://validator.w3.org/
-It does not like the google fonts in the head element, but this is how Google suggests adding them.
-![image](https://github.com/user-attachments/assets/d13979c3-ad81-4cb0-acec-10dba9cd88a9)
+![image](https://github.com/user-attachments/assets/fbf51967-ee58-4c74-b293-01119e77fe0e)
+![image](https://github.com/user-attachments/assets/04147cea-0468-474f-9ede-770470ed6c79)
+![image](https://github.com/user-attachments/assets/91bffdb3-4d95-4013-a4f5-42ab8e75813d)
+
 
 CSS Validator testing used the jigsaw validator: https://jigsaw.w3.org/css-validator/ and posted no issues. 
 ![image](https://github.com/user-attachments/assets/23850db4-ef9c-460e-b265-dc8631ad85fa)
@@ -221,7 +223,7 @@ CSS Validator testing used the jigsaw validator: https://jigsaw.w3.org/css-valid
 Javascript was testing using JS Hint: https://jshint.com/
 The only errors are warnings about the use of ES6. ![image](https://github.com/user-attachments/assets/995f59b0-4094-477d-a971-e38cbdbc20a9)
 
-
+Python PEP 8 CI Checker - https://pep8ci.herokuapp.com/
 
 # Accessibility
 In checking contrast a lot of the text was failing/posting a warning in Chrome Dev tools, I changed most the text to black and it now scores highly in contrast. \
