@@ -1,5 +1,6 @@
 {% extends 'base.html' %} {% block content %}
 {% load static %}
+{% load custom_filters %}
 <!-- Content from Base.HTML after this block-->
 
 <!-- Beer Detail Page and Comments-->
@@ -20,7 +21,7 @@
                     <li class="list-group-item"><strong>ABV: </strong>{{ beer.abv }}</li>
                     <li class="list-group-item"><strong>Rating: </strong>
                         {% if average_rating %}
-                        {{ average_rating|floatformat:1 }} / 5
+                        {{ average_rating|star_rating|safe }}
                         {% else %}
                         No ratings yet
                         {% endif %}</li>
@@ -46,7 +47,7 @@
                     <li class="list-group-item"><strong>Title: </strong>{{ review.review_title }}</li>
                     <li class="list-group-item"><strong>Review: </strong>{{ review.review_content }}</li>
                     <li class="list-group-item"><strong>Poster: </strong>{{ review.poster }}</li>
-                    <li class="list-group-item"><strong>Rating: </strong>{{ review.rating }} / out of 5</li>
+                    <li class="list-group-item"><strong>Rating: </strong>{{ review.rating|star_rating|safe }}</li>
                 </ul>
                 <!-- view edit / delete buttons IF user is logged in and matches comment -->
                 {% if user.is_authenticated and review.poster == user %}
