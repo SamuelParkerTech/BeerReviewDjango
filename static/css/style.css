@@ -12,17 +12,18 @@ body {
 /* Navbar Styles */
 nav {
     background-color: #C6A15B;
-    color: #ffffff
+    color: black
 }
 
 nav a {
-    color: #ffffff !important;
+    color: black !important;
 }
 
 /* Main Page and Content */
 
 #title {
-    color: #C6A15B;
+    color: black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
     font-family: Oswald, sans-serif;
     text-align: center;
     font-size: 150px;
@@ -90,7 +91,7 @@ nav a {
     align-items: center;
     margin: 0;
     padding: 0.5rem;
-    color: #ffffff;
+    color: black;
     font-size: medium;
 
 }
@@ -101,7 +102,7 @@ footer i {
 
 footer a {
     font-size: 1rem;
-    color: #ffffff;
+    color: black;
     text-decoration: none;
 }
 
