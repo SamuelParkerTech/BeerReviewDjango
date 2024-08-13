@@ -224,12 +224,12 @@ The only errors are warnings about the use of ES6. ![image](https://github.com/u
 
 
 # Accessibility
-In checking contrast a lot of the text was failing/posting a warning in Chrome Dev tools, I changed most the text to black and it now scores highly in contrast. 
+In checking contrast a lot of the text was failing/posting a warning in Chrome Dev tools, I changed most the text to black and it now scores highly in contrast. \
 ![image](https://github.com/user-attachments/assets/9ec3664a-2cae-4882-a28a-09a5afbe694d)
 
 
-Accessible Web testing currently leverages a score of 93/100
-![image](https://github.com/user-attachments/assets/fd304eac-9e1d-4f82-ad09-1eb8163b8cb7)
+Accessible Web testing currently states no accessibility issues (WCAG)
+![image](https://github.com/user-attachments/assets/7d3a8708-cc45-4b81-8da0-4cdca88c6fac)
 
 ## Lightouse Testing
 
