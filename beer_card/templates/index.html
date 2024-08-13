@@ -1,5 +1,6 @@
 {% extends 'base.html' %} {% block content %}
 {% load static %}
+{% load custom_filters %}
 <!-- Content from Base.HTML after this block-->
 
 <!-- Age Challenge Modal -->
@@ -45,7 +46,7 @@
             <li class="list-group-item"><strong>ABV: </strong>{{ beer.abv }}</li>
             <li class="list-group-item"><strong>Rating: </strong>
               {% if beer.average_rating %}
-              {{ beer.average_rating|floatformat:1 }} / 5
+              {{ beer.average_rating|star_rating|safe }}
               {% else %}
               No ratings yet
               {% endif %}</li>
