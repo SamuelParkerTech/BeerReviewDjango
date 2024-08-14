@@ -1,3 +1,5 @@
+/* global bootstrap */
+
 // JavaScript calls Age Verification Modal
 
 // Function to get a cookie by name
