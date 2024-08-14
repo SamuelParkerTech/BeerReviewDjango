@@ -178,7 +178,7 @@ Upon successful login a message is displayed.
 On log out they are asked if they wish to confirm logout. \
 ![image](https://github.com/user-attachments/assets/c427a0c2-0436-4a03-931e-72d2b0b45de4)
 
-Users who are not admins cannot access the admin page:
+Users who are not admins cannot access the admin page \
 ![image](https://github.com/user-attachments/assets/d77e75b7-1975-482e-802c-919b4dadca4e)
 
 I checked responsiveness on other sites throughout the development process, I also used Am I Responsive for this. https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev \
