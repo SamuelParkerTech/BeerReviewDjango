@@ -248,6 +248,7 @@ views.py ![image](https://github.com/user-attachments/assets/422a8815-7616-4df8-
 ### BeeReview Testing
 asgi.py ![image](https://github.com/user-attachments/assets/619d28ad-c351-46d3-bbe2-1b655fc18c16)
 settings.py (lines too long errors from Django creation) ![image](https://github.com/user-attachments/assets/7fa5860f-92ab-460b-8121-6b7887c4d040)
+![image](https://github.com/user-attachments/assets/8fc53544-a16f-4727-974f-71eb766d0ac4)
 urls.py ![image](https://github.com/user-attachments/assets/63e8d14e-4f6c-436a-b297-855f52b08543)
 wsgi.py ![image](https://github.com/user-attachments/assets/8b7b7100-26b0-49f7-9bd6-0676865d48c5)
 
