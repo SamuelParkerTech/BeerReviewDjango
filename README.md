@@ -298,14 +298,15 @@ For a future functionality I would also like to add a user area, which would dis
 
 # Credits
 
-# Content Credit
+## Content Credit
 
 * Carew Pub Images courtesy of Out and Abouts Images https://www.outandaboutimages.co.uk/ 
 * ChatGPT - Content Creation. Descriptions of some beers was tweaked with ChatGPT and some site descriptions were created with ChatGPT.
 * Favicons - Favicon.io - https://favicon.io/emoji-favicons/beer-mug/
 * FontAwesome - Social Icons https://fontawesome.com/
+* All other images provided by S Parker Photography www.sparkerphotography.co.uk 
 
-# Technology
+## Technology
 
 * Github - Version Control & Project Kanban / Issues
 * Gitpod - Code Editor
