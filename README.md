@@ -223,13 +223,33 @@ CSS Validator testing used the jigsaw validator: https://jigsaw.w3.org/css-valid
 
 ## Javascript
 Javascript was testing using JS Hint: https://jshint.com/
-The only errors are warnings about the use of ES6. ![image](https://github.com/user-attachments/assets/995f59b0-4094-477d-a971-e38cbdbc20a9)
+Two undeclared variables 'Bootstrap' which is part of the modal process. This is fixed by adding /* Global Bootstrap */ to the file. 
+![image](https://github.com/user-attachments/assets/7a5edf10-6a98-4c7f-8af1-e497478f9cae)
+
 
 ## Python PEP 8 CI Checker - https://pep8ci.herokuapp.com/
 ### About Testing
-Models.py 
-![image](https://github.com/user-attachments/assets/bbdcb5b7-4d34-4cb3-8b18-665857965d24)
+models.py ![image](https://github.com/user-attachments/assets/bbdcb5b7-4d34-4cb3-8b18-665857965d24)
+admin.py ![image](https://github.com/user-attachments/assets/1a33b85c-07aa-456d-8cbe-e8c79ddfdd60)
+apps.py ![image](https://github.com/user-attachments/assets/64d9ba5e-054b-4cbf-beae-4cd25b5cc288)
+urls.py ![image](https://github.com/user-attachments/assets/457bab58-8416-4355-b836-0d373f4fd179)
+views.py ![image](https://github.com/user-attachments/assets/df6cb41d-e99d-4090-95ca-2364c7a60c95)
 
+### Beer_Card Testing
+Custom_Filters.py ![image](https://github.com/user-attachments/assets/116a1db5-a95b-42bf-9136-59c4d4eaae17)
+admin.py ![image](https://github.com/user-attachments/assets/c068769b-5f34-41c3-8633-08b3d52b9bcf)
+apps.py ![image](https://github.com/user-attachments/assets/d072c237-9b61-4a26-9da3-aeef57cf1d40)
+forms.py ![image](https://github.com/user-attachments/assets/c0b8bd08-3710-45a8-89a4-fec26f2ed996)
+models.py ![image](https://github.com/user-attachments/assets/b0d0c266-b2d6-4e67-8f13-c3ef76a52ae3)
+urls.py ![image](https://github.com/user-attachments/assets/e64e244b-a3a0-4b6f-a33d-bf19f57f3e75)
+views.py ![image](https://github.com/user-attachments/assets/422a8815-7616-4df8-9a5e-baeb4699405e)
+
+
+### BeeReview Testing
+asgi.py ![image](https://github.com/user-attachments/assets/619d28ad-c351-46d3-bbe2-1b655fc18c16)
+settings.py (lines too long errors from Django creation) ![image](https://github.com/user-attachments/assets/7fa5860f-92ab-460b-8121-6b7887c4d040)
+urls.py ![image](https://github.com/user-attachments/assets/63e8d14e-4f6c-436a-b297-855f52b08543)
+wsgi.py ![image](https://github.com/user-attachments/assets/8b7b7100-26b0-49f7-9bd6-0676865d48c5)
 
 
 # Accessibility
