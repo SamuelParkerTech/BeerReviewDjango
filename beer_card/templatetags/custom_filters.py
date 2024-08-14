@@ -1,6 +1,8 @@
 from django import template
 register = template.Library()
 
+# Converts ratings /5 in to stars
+
 
 @register.filter
 def star_rating(value):
