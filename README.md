@@ -6,7 +6,8 @@
 ## Contents
 - [About](#about)
 - [Project Target](#Project-Target)
-- [Agile](#Agile) 
+- [Agile](#Agile)
+- [User Stories](#user-stories)
 - [Project Board](#Project-Board)
 - [Live Deployment](#Live-Deployment)
 - [Design](#Design)
@@ -52,7 +53,29 @@ S: Ratings that are shown on all pages and averaged.  \
 C: Code and style revisement. Future features such as Carousel view, ratings convered to star ratings. \
 oW: Ability to add new beers as a user. This a specific website featuring specific beers at the festival, such a feature is thus not required. However, in future the site could be adapted for other beer festivals or personal reasons when having this ability would be beneficial. 
 
-## Project Board
+# User Stories
+
+User stories were used to keep track of the MOSCOW framework and project MVP as working through the project. 
+
+![image](https://github.com/user-attachments/assets/c69ae848-3c81-4496-b457-c8c520faae10)
+
+1. **Review Accordion Auto Opens on click**
+2. 
+3. **Carousel View**
+4. **From User Testing: Rating defaults to zero**
+5. **From live Tests: Remove Placeholder Text**
+6. **Can Edit & Delete Reviews**
+7. **User can Create an account, login, and log out**
+8. **Age Verification Only needs to be confirmed Once**
+9. **Create Drafts**
+10. **Create Posts**
+11. **Active Feedback**
+12. **Create Review/Beer Detail Page**
+13. **Age Restricted Content**
+14. **User can leave a review**
+15. **View Beers**
+
+# Project Board
 
 https://github.com/users/SamuelParkerTech/projects/8
 
@@ -192,7 +215,19 @@ For users authentication I have used All Auth - https://docs.allauth.org/en/late
 
 # Testing
 
-Testing was done both manually and using Validators (see next section).
+## Focus Group Testing
+
+Before going live the site was made available to a small group of attendees to the beer festival to gather feedback on design, check for issues and test bugs. This feedback was incorporated and added to the site/user stories. 
+
+| Feedback                        | Action                          | Outcome                        |
+|----------------------------------|---------------------------------|--------------------------------|
+| I just added a review for Exmoor Beast. On the homepage, the rating appears. But when I click on Exmoor Beast, the Rating shows as "No ratings yet" -   | Code error resulting in rating not displaying correctly fixed | Review rating is correctly displayed |
+| Minor point, but when you click to add a review, the Review Title is already populated with the text "Review Title", which you have to delete. It would be nice if it was blank when you click in the field.        | Placeholder text removal added to User Stories and code edited to remove the fixed placeholder text | Placeholder text and is now automatically removed  |
+| The review I left was 5/5 for the beast (obvs). When I edit that review, the score defaults to 1 and I have to change it again. If the reviewer just wanted to edit the text, they might not realise they have to change the score again, so would be better if it could default to the score originally given. | Added to User Stories - Score defaults to 1 on editing | Currently a known bug which remains in development for a future update  |
+
+## Manual Testing
+
+
 
 ## Known Bugs
 
