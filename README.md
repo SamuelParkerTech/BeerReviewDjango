@@ -257,7 +257,7 @@ In the process of testing I created the a test account "testaccount" for the pur
 | Login | Login is successful,  Message stating you are logged in | Pass | None |
 | Add/Edit Reviews | Prompted to Log in to leave a review / cannot edit reviews | Pass | None |
 
-## CRUD Functionanlity
+### CRUD Functionality
 
 ### If Logged In
 
