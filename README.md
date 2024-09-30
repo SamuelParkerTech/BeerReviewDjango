@@ -229,6 +229,8 @@ Before going live the site was made available to a small group of attendees to t
 
 ## Manual Testing
 
+In the process of testing I created the a test account "testaccount" for the purposes of checking the functionality of the site. In this process, I was able to add reviews, edit reviews and delete them. Full testing details can be found below. 
+
 ### Site Navigation / UX
 
 | **Test** | **Expected Outcome** | **Result** | **Action Taken** |
@@ -240,6 +242,8 @@ Before going live the site was made available to a small group of attendees to t
 | Beer Page Links | Beer Card link goes to the correct beer page | Pass | None |
 | About Page Link | About Page loaded | Pass | None|
 | External Links | External Links Open to New Windows / Correct Sites | Pass | None |
+| Beer Ratings Main Page | Beer Rating is displayed in star format OR if no reviews are yet left "No ratings yet" | Pass | None |
+| Beer Ratings Details Page |  Beer Rating is displayed in star format OR if no reviews are yet left "No ratings yet" | Pass | None |
 
 #### If Not Logged In
 
@@ -264,9 +268,26 @@ Before going live the site was made available to a small group of attendees to t
 | Add Reviews | Can add reviews to beers | Pass | None |
 | Review correct | All necessary fields completed or throws error/review not posted | Pass | None |
 | Edit Own Reviews | Can edit their own reviews | When editing the score resets to blank, they cannot complete the review without setting the score so need to reset it. | This SHOULD keep the original score but it currently does not work as such, making it force them to rescore is a work around to avoid it resetting to 1 - see known bugs below |
-| Delete Own Reviews | Delete own revies and not others | Pass |
+| Delete Own Reviews | Delete own reviews and not others | Pass |
 | Delete confirmation | When deleting a review a pop asks "Are you Sure, this action cannot be undone" | Pass | None |
-| Logout | Log out confirmation screen, and confirm account is logged out | Pass | None |
+| Logout | Log out confirmation screen, and confirm account is logged out message once confirmed | Pass | None |
+
+## Admin Page
+
+| **Test** | **Expected Outcome** | **Result** | **Action Taken** |
+|---|---|---|---|
+| Login as Super User/Admin | Login Opens Admin Page | Pass | None |
+| Login as Standard User | Unable to login | Pass | None |
+| Add New Beer | Can Add New Beer Details | Pass | None |
+| Edit Pages | Can edit pages / Reviews | Pass | None |
+| Delete | Can Delete Page / Reviews | Pass | None |
+
+![image](https://github.com/user-attachments/assets/a25817b1-77ed-4b34-98e6-b6160204899d)
+![image](https://github.com/user-attachments/assets/3679046e-130b-4851-8222-c8222adc70d1)
+![image](https://github.com/user-attachments/assets/58c3d9f5-dacc-4896-9936-6bc8e6b7dc55)
+![image](https://github.com/user-attachments/assets/0c3c996a-812a-408e-b99c-e3edbfbee8d0)
+![image](https://github.com/user-attachments/assets/28217628-0793-4aae-8b36-ab8a161305ae)
+
 
 ## Known Bugs
 
