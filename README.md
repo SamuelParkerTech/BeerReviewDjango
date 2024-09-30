@@ -229,7 +229,14 @@ Before going live the site was made available to a small group of attendees to t
 
 ## Manual Testing
 
+Site Navigation / UX
 
+| **Test** | **Expected Outcome** | **Result** | **Action Taken** |
+|---|---|---|---|
+| Age Verification Modal Site Load |  Age Verification Modal Pops Up |  Pass | None |
+| Age Verication Modal Saves cookie if Yes| Cookie Saved - Check if Cookie stops Modal loading (see below)| Pass | None |
+| Age Verification Redirects on No|Page redirects to Google| Pass| None |
+| Age Verifcation Modal does not load if cookie present | Site loads with no Modal | Pass | None | 
 
 ## Known Bugs
 
