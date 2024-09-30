@@ -22,7 +22,7 @@
 - [Future Features](#Future-Features)
 - [Credits](#Credits)
 - [Content Credit](#Content-Credit)
-- [Technology](#Technology)-
+- [Technology](#Technology)
 - [Further Thoughts](#Further-Thoughts)
 
 # About
@@ -229,7 +229,7 @@ Before going live the site was made available to a small group of attendees to t
 
 ## Manual Testing
 
-Site Navigation / UX
+### Site Navigation / UX
 
 | **Test** | **Expected Outcome** | **Result** | **Action Taken** |
 |---|---|---|---|
@@ -237,6 +237,36 @@ Site Navigation / UX
 | Age Verication Modal Saves cookie if Yes| Cookie Saved - Check if Cookie stops Modal loading (see below)| Pass | None |
 | Age Verification Redirects on No|Page redirects to Google| Pass| None |
 | Age Verifcation Modal does not load if cookie present | Site loads with no Modal | Pass | None | 
+| Beer Page Links | Beer Card link goes to the correct beer page | Pass | None |
+| About Page Link | About Page loaded | Pass | None|
+| External Links | External Links Open to New Windows / Correct Sites | Pass | None |
+
+#### If Not Logged In
+
+| **Test** | **Expected Outcome** | **Result** | **Action Taken** |
+|---|---|---|---|
+| Log in Status| 'You are not logged in' displays in Nav Bar | Pass| None |
+| Register Link | Opens Register page| Pass | None |
+| Login Link | Opens Login page | Pass | None |
+| Register Account | Account is registered, message stating account registered | Pass | None |
+| Register Account Incorrect | Account is NOT created due to incorrect details | Pass | None |
+| Login | Login is successful,  Message stating you are logged in | Pass | None |
+| Add/Edit Reviews | Prompted to Log in to leave a review / cannot edit reviews | Pass | None |
+
+## CRUD Functionanlity
+
+### If Logged In
+
+| **Test** | **Expected Outcome** | **Result** | **Action Taken** |
+|---|---|---|---|
+| Log in Status | 'You are logged in' displays in Nav Bar | Pass| None |
+| Login / Register / Logout | Logout button should display, Register/Login options are hidden | Pass | None |
+| Add Reviews | Can add reviews to beers | Pass | None |
+| Review correct | All necessary fields completed or throws error/review not posted | Pass | None |
+| Edit Own Reviews | Can edit their own reviews | When editing the score resets to blank, they cannot complete the review without setting the score so need to reset it. | This SHOULD keep the original score but it currently does not work as such, making it force them to rescore is a work around to avoid it resetting to 1 - see known bugs below |
+| Delete Own Reviews | Delete own revies and not others | Pass |
+| Delete confirmation | When deleting a review a pop asks "Are you Sure, this action cannot be undone" | Pass | None |
+| Logout | Log out confirmation screen, and confirm account is logged out | Pass | None |
 
 ## Known Bugs
 
