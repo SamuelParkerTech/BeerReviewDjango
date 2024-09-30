@@ -64,23 +64,17 @@ User stories were used to keep track of the MOSCOW framework and project MVP as 
 | Review Accordion Auto Opens on click                  | As a user it would be clearer if the review box opened automatically when 'leave a review' or 'edit' buttons were clicked and it defaulted to closed.         | Responsive Accordion for the review table that opens on Leave a Review/Edit               |
 | Carousel View                                         | As a user it would be nice to view the cards in a rotating carousel rather than scrolling the whole site.        | Cards display in a rotating carousel.          |
 | From User Testing: Rating defaults to zero            | When I edit that review, the score defaults to 1 and I have to change it again. If the reviewer just wanted to edit the text, they might not realise they have to change the score again, so would be better if it could default to the score originally given.                      | When updating Edit Review the previous score should be set            |
-| From live Tests: Minor point, but when you click to add a review, the Review Title is already populated with the text "Review Title", which you have to delete. It would be nice if it was blank when you click in the field.            | Remove placeholder text from input fields           | Placeholder text should no longer appear in the fields.          |
-| Can Edit & Delete Reviews                             | As a user I can edit my review and delete the review if required.      |  Edit function on related comments
-Delete function on related comments.        |
+| From live Tests: RFemove placeholder text             | Minor point, but when you click to add a review, the Review Title is already populated with the text "Review Title", which you have to delete. It would be nice if it was blank when you click in the field.      | Placeholder text should no longer appear in the fields.          |
+| Can Edit & Delete Reviews                             | As a user I can edit my review and delete the review if required.      |  Edit function on related comments. Delete function on related comments.        |
 | User can Create an account, login, and log out        | As a User I can create an account, log in to said account and log out of said account. | Users should successfully create accounts, log in, and log out. |
 | Age Verification Only needs to be confirmed Once      | As a User I can Confirm my age once on the site so it does not constantly intefere.                 | Cookie accepted on modal age verification, No longer pops up.  |
 | Create Drafts                                         | As a SUperUser/ADmin I can create drafts ready to be posted.                               | Drafts can be created in the admin panel.                 |
 | Create Posts                                          | As a Super User I can add posts so that site users can see beers at the festival.                   | Beer posts can be added/created in the admin panel.             |
-| Active Feedback                                       | As a User I can see if I am logged in, when I post a comment or edit them so that I can keep track of my actions.    | I am told if logged in
-Receive confirmation message when comment is posted or edited. |
+| Active Feedback                                       | As a User I can see if I am logged in, when I post a comment or edit them so that I can keep track of my actions.    | I am told if logged in, Receive confirmation messages when comment is posted or edited. |
 | Create Review/Beer Detail Page                        | Design beer detail and review pages                 | Beer detail page should display reviews and relevant information.|
-| Age Restricted Content                                | As a User I can confirm I am over 18 so that I can review the age restricted content                     | A modal pop up querying my age before allowing access to content.
-If Yes to over 18 site access allowed
- If no redirected away from site.
+| Age Restricted Content                                | As a User I can confirm I am over 18 so that I can review the age restricted content                     | A modal pop up querying my age before allowing access to content.If Yes to over 18 site access allowed. If no redirected away from site.
 | User can leave a review                               | As a user I can leave a single review so that other users and me can know how I felt about a beer.              | I can leave a review for beers.              |
-| View Beers                                            | As a User I can see all festival beers on the main page.           | A landing page with Beers to filter through
-Clickable Beers with further details
-Descriptive images/tasting notes and option to add reviews.                |
+| View Beers                                            | As a User I can see all festival beers on the main page.           | A landing page with Beers to filter through. Clickable Beers with further details. Descriptive images/tasting notes and option to add reviews.                |
 
 
 # Project Board
