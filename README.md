@@ -222,7 +222,7 @@ Before going live the site was made available to a small group of attendees to t
 | Feedback                        | Action                          | Outcome                        |
 |----------------------------------|---------------------------------|--------------------------------|
 | I just added a review for Exmoor Beast. On the homepage, the rating appears. But when I click on Exmoor Beast, the Rating shows as "No ratings yet" -   | Code error resulting in rating not displaying correctly fixed | Review rating is correctly displayed |
-| Minor point, but when you click to add a review, the Review Title is already populated with the text "Review Title", which you have to delete. It would be nice if it was blank when you click in the field.        | Placeholder text removal added to User Stories and code edited to remove the fixed placeholder text | Placeholder text and is now automatically removed  |
+| Minor point, but when you click to add a review, the Review Title is already populated with the text "Review Title", which you have to delete. It would be nice if it was blank when you click in the field.        | Placeholder text removal added to User Stories and code edited to remove the fixed placeholder text | Placeholder text is now automatically removed  |
 | The review I left was 5/5 for the beast (obvs). When I edit that review, the score defaults to 1 and I have to change it again. If the reviewer just wanted to edit the text, they might not realise they have to change the score again, so would be better if it could default to the score originally given. | Added to User Stories - Score defaults to 1 on editing | Currently a known bug which remains in development for a future update  |
 
 ## Manual Testing
