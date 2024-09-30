@@ -59,7 +59,7 @@ User stories were used to keep track of the MOSCOW framework and project MVP as 
 
 ![image](https://github.com/user-attachments/assets/c69ae848-3c81-4496-b457-c8c520faae10)
 
-| User Story                                            | Action                                              | Acceptance Criteria                                            |
+| User Story                                            | Detail                                              | Acceptance Criteria                                            |
 |-------------------------------------------------------|-----------------------------------------------------|----------------------------------------------------------------|
 | Review Accordion Auto Opens on click                  | As a user it would be clearer if the review box opened automatically when 'leave a review' or 'edit' buttons were clicked and it defaulted to closed.         | Responsive Accordion for the review table that opens on Leave a Review/Edit               |
 | Carousel View                                         | As a user it would be nice to view the cards in a rotating carousel rather than scrolling the whole site.        | Cards display in a rotating carousel.          |
