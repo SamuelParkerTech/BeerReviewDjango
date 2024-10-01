@@ -283,13 +283,13 @@ In the process of testing I created the a test account "testaccount" for the pur
 | Delete | Can Delete Page / Reviews | Pass | None |
 
 Leaving a review test \
-![image](https://github.com/user-attachments/assets/a25817b1-77ed-4b34-98e6-b6160204899d)
+![image](https://github.com/user-attachments/assets/a25817b1-77ed-4b34-98e6-b6160204899d) \
 Edit/Delete own review function test \
-![image](https://github.com/user-attachments/assets/3679046e-130b-4851-8222-c8222adc70d1)
+![image](https://github.com/user-attachments/assets/3679046e-130b-4851-8222-c8222adc70d1) \
 Edited review test outcome(edited review) \
-![image](https://github.com/user-attachments/assets/58c3d9f5-dacc-4896-9936-6bc8e6b7dc55)
+![image](https://github.com/user-attachments/assets/58c3d9f5-dacc-4896-9936-6bc8e6b7dc55) \
 Delete review pop up test \
-![image](https://github.com/user-attachments/assets/0c3c996a-812a-408e-b99c-e3edbfbee8d0)
+![image](https://github.com/user-attachments/assets/0c3c996a-812a-408e-b99c-e3edbfbee8d0) \
 Deleted review message confirmation test \
 ![image](https://github.com/user-attachments/assets/28217628-0793-4aae-8b36-ab8a161305ae)
 
