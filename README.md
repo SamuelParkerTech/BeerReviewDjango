@@ -426,7 +426,7 @@ In the deploy tab, scroll down and deploy MAIN Branch \
 | Remove secret key | SECRET_KEY = os.environ.get('SECRET_KEY') |
 | Comment out old Database section | # DATABASES = { } ( # on each line ) |
 | Add new Databases section | DATABASES = {'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))} |
-| Migrate Database |
+| **Migrate Database** |
 | Save all files and Migrate | python3 manage.py migrate |
 | **Create Super User** |
 | Create Super User | python3 manage.py createsuperuser |
