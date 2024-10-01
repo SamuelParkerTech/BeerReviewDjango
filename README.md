@@ -206,7 +206,7 @@ On log out they are asked if they wish to confirm logout. \
 Users who are not admins cannot access the admin page \
 ![image](https://github.com/user-attachments/assets/d77e75b7-1975-482e-802c-919b4dadca4e)
 
-I checked responsiveness on other sites throughout the development process, I also used Am I Responsive for this. https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev \
+I checked responsiveness on other sites throughout the development process, I also used Am I Responsive for this. https://ui.dev/amiresponsive?url=https%3A%2F%2FBeeReviews.dev \
 ![image](https://github.com/user-attachments/assets/c0613e0f-b907-4e38-87eb-c49e6e43ec19)
 
 ## Django / Admin page 
@@ -387,6 +387,67 @@ Make sure VARS are set correctly. \
 In the deploy tab, scroll down and deploy MAIN Branch \
 ![image](https://github.com/user-attachments/assets/20234481-4a8a-44b7-9070-69b5bb1dd0c4)
 
+## Detailed DJango/Heroku Set Up Instructions
+
+| **Step** | **Code** | 
+|---|---|
+| Install Django: | pip3 install Django~=4.2.1 |
+| Create requirements file | pip3 --local > requirements.txt |
+| Create Project (proj_name)| Django-admin startproject proj_name . |
+| Run Server | python3 manage.py runserver |
+| Add Servers to ALLOWED_HOSTS in settings.py | ALLOWED_HOSTS = ALLOWED_HOSTS = ['.codeinstitute-ide.net', '.herokuapp.com'] |
+| Create App (app_name) | python3 manage.py startapp app_name |
+| Add to INSTALL_APPS in settings.py | INSTALLED_APPS = [… 'app_name',] |
+|Set Up Heroku |
+| Heroku Dashboard | https://www.heroku.com/ |
+| Create new Heroku App | Choose unique name / select close region |
+| Add Config Vars | Config Vars > Reveal Config Vars > Add New Key > DISABLE_COLLECTSTATIC value 1 |
+| In IDE |
+| Install web server Gunicorn and freeze | pip3 install gunicorn~=20.1 \ pip3 freeze --local>requirements.txt |
+| Create Procfile | create Procfile in root directory |
+| Declare Procfile | Add web : gunicorn proj_name.wsgi in Procfile |
+| In Heroku |
+| Connect Repository | Navigate to Deploy tab > connect to Github Repo |
+| Check Add ons & Dynos | Inside app resources make sure to use Eco Dynos. Delete PostGres DB Add-ons |
+| Database |
+| Create Postgres Database | CI Database Creator - https://dbs.ci-dbs.net/ |
+| In IDE |
+| Install Database Packages | pip3 install dj-database-url~=0.5 psycopg / then pip3 freeze --local > requirements.txt |
+| Create env.py file | Root directoy add env.py and add to .gitignore |
+| In env.py |
+| import OS | Top line 'import os' |
+| set enviroment variables | os.environ["DATABASE_URL"] = "Paste in PostgreSQL database URL" |
+| Secret Key | os.environ["SECRET_KEY"] = "Make up your own randomSecretKey" |
+| In Heroku | 
+| Add Secret Ket to config Vars |  SECRET_KEY, “randomSecretKey” |
+| Add a Config Var called DATABASE_URL | DATABASE_URL, “yourDBUrlgoeshere” |
+| In settings.py |
+| Link to env.py | from pathlib import Path
+import os
+import dj_database_url
+if os.path.isfile("env.py"):
+import env |
+| Remove secret key | SECRET_KEY = os.environ.get('SECRET_KEY') |
+| Comment out old Database section | # DATABASES = {
+# 'default': {
+# 'ENGINE': 'django.db.backends.sqlite3',
+# 'NAME': BASE_DIR / 'db.sqlite3',
+# }
+# } |
+| Add new Databases section | DATABASES = {
+'default':
+dj_database_url.parse(os.environ.get("DATABASE_
+URL"))
+} |
+| Migrate Database |
+| Save all files and Migrate | python3 manage.py migrate |
+| Create Super User |
+| Create Super User | python3 manage.py createsuperuser |
+| In settings.py |
+| Set DEBUG to false | DEBUG = False |
+|Redeploy |
+| Push all Git changes and commits | Redeploy to Heroku |
+
 
 # Future Features
 
@@ -423,7 +484,7 @@ For a future functionality I would also like to add a user area, which would dis
 * Google Sheets - Data collection & creation https://docs.google.com/spreadsheets/create
 * Trello - Project Assessment Criteria Tracker https://trello.com/b/Gxg1ULD2/final-project-criteria
 * AllAuth
-* Am I Responsive https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev
+* Am I Responsive https://ui.dev/amiresponsive?url=https%3A%2F%2FBeeReviews.dev
 
 ## Django Requirements
 
