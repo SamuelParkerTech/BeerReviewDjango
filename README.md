@@ -398,56 +398,44 @@ In the deploy tab, scroll down and deploy MAIN Branch \
 | Add Servers to ALLOWED_HOSTS in settings.py | ALLOWED_HOSTS = ALLOWED_HOSTS = ['.codeinstitute-ide.net', '.herokuapp.com'] |
 | Create App (app_name) | python3 manage.py startapp app_name |
 | Add to INSTALL_APPS in settings.py | INSTALLED_APPS = [… 'app_name',] |
-|Set Up Heroku |
+| **Set Up Heroku** |
 | Heroku Dashboard | https://www.heroku.com/ |
 | Create new Heroku App | Choose unique name / select close region |
 | Add Config Vars | Config Vars > Reveal Config Vars > Add New Key > DISABLE_COLLECTSTATIC value 1 |
-| In IDE |
+| **In IDE** |
 | Install web server Gunicorn and freeze | pip3 install gunicorn~=20.1 \ pip3 freeze --local>requirements.txt |
 | Create Procfile | create Procfile in root directory |
 | Declare Procfile | Add web : gunicorn proj_name.wsgi in Procfile |
-| In Heroku |
+| **In Heroku** |
 | Connect Repository | Navigate to Deploy tab > connect to Github Repo |
 | Check Add ons & Dynos | Inside app resources make sure to use Eco Dynos. Delete PostGres DB Add-ons |
-| Database |
+| **Database** |
 | Create Postgres Database | CI Database Creator - https://dbs.ci-dbs.net/ |
-| In IDE |
+| **In IDE** |
 | Install Database Packages | pip3 install dj-database-url~=0.5 psycopg / then pip3 freeze --local > requirements.txt |
 | Create env.py file | Root directoy add env.py and add to .gitignore |
-| In env.py |
+| **In env.py** |
 | import OS | Top line 'import os' |
 | set enviroment variables | os.environ["DATABASE_URL"] = "Paste in PostgreSQL database URL" |
 | Secret Key | os.environ["SECRET_KEY"] = "Make up your own randomSecretKey" |
-| In Heroku | 
+| **In Heroku** | 
 | Add Secret Ket to config Vars |  SECRET_KEY, “randomSecretKey” |
 | Add a Config Var called DATABASE_URL | DATABASE_URL, “yourDBUrlgoeshere” |
-| In settings.py |
-| Link to env.py | from pathlib import Path
-import os
-import dj_database_url
-if os.path.isfile("env.py"):
-import env |
+| **In settings.py** |
+| Link to env.py | from pathlib import Path, import os, import dj_database_url, if os.path.isfile("env.py"): import env |
 | Remove secret key | SECRET_KEY = os.environ.get('SECRET_KEY') |
-| Comment out old Database section | # DATABASES = {
-# 'default': {
-# 'ENGINE': 'django.db.backends.sqlite3',
-# 'NAME': BASE_DIR / 'db.sqlite3',
-# }
-# } |
-| Add new Databases section | DATABASES = {
-'default':
-dj_database_url.parse(os.environ.get("DATABASE_
-URL"))
-} |
+| Comment out old Database section | # DATABASES = { } ( # on each line ) |
+| Add new Databases section | DATABASES = {'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))} |
 | Migrate Database |
 | Save all files and Migrate | python3 manage.py migrate |
-| Create Super User |
+| **Create Super User** |
 | Create Super User | python3 manage.py createsuperuser |
-| In settings.py |
+| **In settings.py** |
 | Set DEBUG to false | DEBUG = False |
-|Redeploy |
+|**Redeploy** |
 | Push all Git changes and commits | Redeploy to Heroku |
 
+The project should now be ready to begin
 
 # Future Features
 
