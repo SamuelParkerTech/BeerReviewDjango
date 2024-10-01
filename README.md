@@ -391,6 +391,10 @@ In the deploy tab, scroll down and deploy MAIN Branch \
 
 | **Step** | **Code** | 
 |---|---|
+| **In Github** |
+| Create a new Github Repo | Github > new Repository |
+| Open Repo | If your Github is utlising the plugin click 'Open' to launch your preferred IDE |
+| **In IDE**|
 | Install Django: | pip3 install Django~=4.2.1 |
 | Create requirements file | pip3 --local > requirements.txt |
 | Create Project (proj_name)| Django-admin startproject proj_name . |
