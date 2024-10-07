@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// Javascript to edit reviews
+// JavaScript to edit reviews UPDATE
 
 document.addEventListener('DOMContentLoaded', () => {
     const editButtons = document.getElementsByClassName('btn-edit');
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const reviewId = e.target.getAttribute('data-comment-id');
             const reviewTitle = e.target.closest('.card').querySelector('li:first-child').innerText.split(': ')[1];
             const reviewContent = e.target.closest('.card').querySelector('li:nth-child(2)').innerText.split(': ')[1];
-            const reviewRating = e.target.closest('.card').querySelector('li:nth-child(4)').innerText.split(' / out of 5')[0].trim();
+            const reviewRating = e.target.closest('.card').querySelector('.rating-display').getAttribute('data-raw-rating');
 
             reviewText.value = reviewContent;
             reviewForm.querySelector('input[name="review_title"]').value = reviewTitle;
@@ -69,16 +69,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const ratingSelect = reviewForm.querySelector('select[name="rating"]');
             if (ratingSelect) {
-                console.log('Setting rating select value:', reviewRating);
-                ratingSelect.value = reviewRating;
+                // Ensure the rating is set properly
+                console.log('Original review rating:', reviewRating);
+                
+                // Convert rating to number if needed and set the value
+                ratingSelect.value = parseInt(reviewRating);  // Assuming reviewRating is a string, convert to number
+                console.log('Setting rating select value:', ratingSelect.value);
             } else {
                 console.error('Rating select not found');
             }
+
             submitButton.innerText = 'Update';
             reviewForm.setAttribute('action', `edit_review/${reviewId}`);
         });
     }
 });
+
+
+
 
 // Javascript to Delete reviews
 
