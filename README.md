@@ -267,7 +267,7 @@ In the process of testing I created the a test account "testaccount" for the pur
 | Login / Register / Logout | Logout button should display, Register/Login options are hidden | Pass | None |
 | Add Reviews | Can add reviews to beers | Pass | None |
 | Review correct | All necessary fields completed or throws error/review not posted | Pass | None |
-| Edit Own Reviews | Can edit their own reviews | When editing the score resets to blank, they cannot complete the review without setting the score so need to reset it. | This SHOULD keep the original score but it currently does not work as such, making it force them to rescore is a work around to avoid it resetting to 1 - see known bugs below |
+| Edit Own Reviews | Can edit their own reviews | When editing the score resets to blank, they cannot complete the review without setting the score so need to reset it. | This SHOULD keep the original score but it currently does not work as such, making it force them to rescore is a work around to avoid it resetting to 1 - see known bugs below. NOW RESOLVED|
 | Delete Own Reviews | Delete own reviews and not others | Pass |
 | Delete confirmation | When deleting a review a pop asks "Are you Sure, this action cannot be undone" | Pass | None |
 | Logout | Log out confirmation screen, and confirm account is logged out message once confirmed | Pass | None |
@@ -302,10 +302,19 @@ The Javascript is collecting the rating correctly but I have not been able to ge
 ![image](https://github.com/user-attachments/assets/ddc2ebfa-f94c-4fdb-bedb-c762e48cb742)
 If it is left blank, the updated review will not post and the user will get an error message "Review not updated" if they click update. 
 
+### Bug Updated 07.10.2024
+This is now resolved. I believe the issue was due to converting the rating to a star system so it was not pulling the original score. I have thus added code to the HTML and Javascript to make sure the right number is requested. It is now working as intended as evidenced by the Print to console function.
+
+![image](https://github.com/user-attachments/assets/9e08980a-75ca-4c06-a6cb-d4e68612af43)
+![image](https://github.com/user-attachments/assets/50067559-13ee-4831-8c3a-dadb6c8e02c3)
+![image](https://github.com/user-attachments/assets/07995f24-606b-44c4-bfab-6e9a672436a2)
+
+
 On some pages you get a Javascript error TypeError: Cannot read properties of null (reading 'addEventListener')
     at HTMLDocument.<anonymous> (script.js:34:41).
 This error relates to the age verification modal and only appears once the cookie is in place. 
 Updated - I have removed this error by checking if the cookie is present and if so the code will exit. 12.08.2024
+
 
 The Bootstrap Modals are still causing a few issues on the index page, from the Bootstrap css. 
 ![image](https://github.com/user-attachments/assets/ba7270b2-3a56-48aa-8e8f-dd6e17f565ab)
