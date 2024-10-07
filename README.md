@@ -308,6 +308,7 @@ This is now resolved. I believe the issue was due to converting the rating to a 
 ![image](https://github.com/user-attachments/assets/9e08980a-75ca-4c06-a6cb-d4e68612af43)
 ![image](https://github.com/user-attachments/assets/50067559-13ee-4831-8c3a-dadb6c8e02c3)
 ![image](https://github.com/user-attachments/assets/07995f24-606b-44c4-bfab-6e9a672436a2)
+![image](https://github.com/user-attachments/assets/fcc89be0-df60-4cb6-b9ee-7cfb34e25f86)
 
 
 On some pages you get a Javascript error TypeError: Cannot read properties of null (reading 'addEventListener')
