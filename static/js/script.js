@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const reviewId = e.target.getAttribute('data-comment-id');
             const reviewTitle = e.target.closest('.card').querySelector('li:first-child').innerText.split(': ')[1];
             const reviewContent = e.target.closest('.card').querySelector('li:nth-child(2)').innerText.split(': ')[1];
-            const reviewRating = e.target.closest('.card').querySelector('li:nth-child(4)').innerText.split(' / out of 5')[0].trim();
+            const reviewRating = e.target.closest('.card').querySelector('.rating-display').getAttribute('data-raw-rating');
 
             reviewText.value = reviewContent;
             reviewForm.querySelector('input[name="review_title"]').value = reviewTitle;
@@ -84,6 +84,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+
 
 
 // Javascript to Delete reviews
